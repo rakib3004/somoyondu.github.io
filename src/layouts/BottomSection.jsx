@@ -1,8 +1,13 @@
 import React from 'react'
+import Header from '../features/Header'
+import OrganizationDescription from '../features/OrganizationDescription'
 
 const BottomSection = () => {
   return (
-    <div>BottomSection</div>
+    <div>
+      <Header/>
+      <OrganizationDescription/>
+    </div>
   )
 }
 
