@@ -1,8 +1,13 @@
-import React from 'react'
+import React from 'react';
+import FooterTitle from '../components/FooterTitle';
+import Contact from '../components/Contact';
 
 const BottomRightSection = () => {
   return (
-    <div>BottomRightSection</div>
+    <div>
+      <FooterTitle/>
+      <Contact/>
+    </div>
   )
 }
 

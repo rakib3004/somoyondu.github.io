@@ -1,8 +1,13 @@
 import React from 'react'
+import Title from '../components/Title';
+import AdvisorCard from '../components/AdvisorCard';
 
 const AdvisoryComittee = () => {
   return (
-    <div>AdvisoryComittee</div>
+    <div>
+      <Title/>
+      <AdvisorCard/>
+    </div>
   )
 }
 

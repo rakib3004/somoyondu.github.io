@@ -1,8 +1,13 @@
 import React from 'react'
+import Title from '../components/Title';
+import PictureCard from '../components/PictureCard';
 
 const Gallery = () => {
   return (
-    <div>Gallery</div>
+    <div>
+      <Title/>
+      <PictureCard/>
+    </div>
   )
 }
 

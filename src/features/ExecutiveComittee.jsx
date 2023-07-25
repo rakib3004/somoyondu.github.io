@@ -1,8 +1,14 @@
 import React from 'react'
 
+import Title from '../components/Title';
+import AuthorCard from '../components/AuthorCard';
+
 const ExecutiveComittee = () => {
   return (
-    <div>ExecutiveComittee</div>
+    <div>
+      <Title/>
+      <AuthorCard/>
+    </div>
   )
 }
 
