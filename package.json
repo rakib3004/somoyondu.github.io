@@ -2,8 +2,11 @@
   "name": "somoyondu.github.io",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://somoyondu.github.io",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "start": "vite",
     "build": "vite build",
@@ -11,6 +14,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.14.2",
