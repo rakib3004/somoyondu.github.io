@@ -1,13 +1,13 @@
 import React from 'react'
 
 import Title from '../components/Title';
-import AuthorCard from '../components/AuthorCard';
+import PersonCard from '../components/PersonCard';
 
 const ExecutiveComittee = () => {
   return (
     <div>
       <Title/>
-      <AuthorCard/>
+      <PersonCard/>
     </div>
   )
 }
