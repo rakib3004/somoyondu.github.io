@@ -3,7 +3,7 @@ import Logo from '../components/Logo';
 import SocialMedia from '../components/SocialMedia';
 const BottomLeftSection = () => {
   return (
-    <div>
+    <div className='left w-1/2'>
       <Logo/>
       <SocialMedia/>
     </div>
