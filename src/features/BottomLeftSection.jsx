@@ -3,8 +3,10 @@ import Logo from '../components/Logo';
 import SocialMedia from '../components/SocialMedia';
 const BottomLeftSection = () => {
   return (
-    <div className='left w-1/2'>
+    <div className='left w-1/2 px-16'>
+      <div className='mb-24'>
       <Logo/>
+      </div>
       <SocialMedia/>
     </div>
   )

@@ -2,7 +2,9 @@ import React from 'react'
 
 const Logo = () => {
   return (
-    <div>Logo</div>
+    <div>
+      <img src="white-logo.png" alt="Somoyon" className='w-52 h-auto' />
+    </div>
   )
 }
 

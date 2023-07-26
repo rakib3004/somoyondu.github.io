@@ -1,6 +1,5 @@
 import React from 'react'
-import Title from '../components/Title';
-import PictureCard from '../components/PictureCard';
+import ImageSlider from '../components/ImageSlider';
 
 const Gallery = () => {
   return (
@@ -11,7 +10,7 @@ const Gallery = () => {
       <h1 className='text-base'>একনজরে সময়নের কার্যক্রম</h1>
       </div>
 
-      <PictureCard/>
+      <ImageSlider/>
     </div>
   )
 }
