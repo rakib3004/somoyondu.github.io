@@ -5,7 +5,7 @@ import BottomRightSection from '../features/BottomRightSection';
 
 const BottomSection = () => {
   return (
-    <div className='flex flex-row bg-[#6251A7] h-[230px] w-full'>
+    <div className='flex flex-row bg-[#6251A7] h-[230px] w-full pt-24'>
       <BottomLeftSection/>
       <BottomRightSection/>
     </div>
