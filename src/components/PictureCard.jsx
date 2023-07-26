@@ -2,7 +2,11 @@ import React from 'react'
 
 const PictureCard = () => {
   return (
-    <div>PictureCard</div>
+    <div>
+      <div className='w-full h-100 text-center text-4xl '>
+        Picture
+      </div>
+    </div>
   )
 }
 

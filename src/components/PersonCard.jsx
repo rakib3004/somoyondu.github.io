@@ -2,7 +2,11 @@ import React from 'react'
 
 const PersonCard = () => {
   return (
-    <div>PersonCard</div>
+    <div>
+       <div className='w-full h-100 text-center text-4xl '>
+       এম এ এফ ফাহিম
+      </div>
+    </div>
   )
 }
 
