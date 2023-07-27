@@ -1,7 +1,7 @@
-import React from 'react';
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+import React from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const ImageSlider = () => {
   const settings = {
@@ -17,19 +17,39 @@ const ImageSlider = () => {
   return (
     <Slider {...settings}>
       <div>
-        <img src="image1.png" alt="Image 1" />
+        <img
+          src="image1.png"
+          alt="Image 1"
+          
+        />
       </div>
       <div>
-        <img src="image2.png" alt="Image 2" />
+        <img
+          src="image2.png"
+          alt="Image 2"
+          
+        />
       </div>
       <div>
-        <img src="image3.png" alt="Image 3" />
+        <img
+          src="image3.png"
+          alt="Image 3"
+          
+        />
       </div>
       <div>
-        <img src="image4.png" alt="Image 4" />
+        <img
+          src="image4.png"
+          alt="Image 4"
+          
+        />
       </div>
       <div>
-        <img src="image5.png" alt="Image 5" />
+        <img
+          src="image5.png"
+          alt="Image 5"
+          
+        />
       </div>
     </Slider>
   );

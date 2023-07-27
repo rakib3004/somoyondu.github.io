@@ -1,6 +1,6 @@
 import React from 'react'
-import Title from '../components/Title';
-import AdvisorCard from '../components/AdvisorCard';
+
+import Executives from '../components/Executives';
 
 const AdvisoryComittee = () => {
   return (
@@ -13,7 +13,7 @@ const AdvisoryComittee = () => {
       পাশে দাঁড়ানো। এরই ধারাবাহিকতায় আমরা আমাদের অভিভাবকগণ আমাদের মাথার উপর ছায়া হয়ে আছেন। 
        </h1>
       </div>
-      <AdvisorCard/>
+      <Executives/>
     </div>
   )
 }

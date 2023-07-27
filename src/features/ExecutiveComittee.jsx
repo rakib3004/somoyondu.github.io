@@ -1,7 +1,7 @@
 import React from 'react'
 
-import Title from '../components/Title';
-import PersonCard from '../components/PersonCard';
+import Executives from '../components/Executives';
+
 
 const ExecutiveComittee = () => {
   return (
@@ -14,7 +14,10 @@ const ExecutiveComittee = () => {
        জন্য ৬১ সদস্য বিশিষ্ট পুর্নাঙ্গ কার্যনির্বাহী পরিষদ প্রতিনিয়ত কাজ করে যাচ্ছে।
        </h1>
       </div>
-      <PersonCard/>
+      <div className='my-6'>
+
+      </div>
+      <Executives/>
     </div>
   )
 }
