@@ -15,9 +15,12 @@ const ExecutiveComittee = () => {
        </h1>
       </div>
       <div className='my-6'>
-
       </div>
+
+      <div>
       <Executives/>
+      </div>
+
     </div>
   )
 }

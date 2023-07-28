@@ -1,5 +1,5 @@
 import React from "react";
-
+import ExecutiveCard from "./ExecutiveCard";
 const Executives = () => {
   const executives = [
     {
@@ -24,23 +24,10 @@ const Executives = () => {
       },
   ];
   return (
-    <div className=" flex flex-row">
+    <div className="mx-20 mt-10 grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
     {executives.map((executive)=>(
-        <div class="w-64 mx-auto p-8 bg-white ring-4 ring-[#6251A7] rounded-xl shadow-md ">
-        <img
-          class="h-24 mx-auto rounded-full ring-4 ring-[#6251A7] mt-7"
-          src={executive.image}
-          alt="Learn with Sumit logo"
-        />
-        <div class="text-center space-y-2 mb-6">
-          <div class="space-y-0.5">
-            <p class="text-lg text-black font-semibold">{executive.name}</p>
-            <p class="text-gray-500 font-medium">{executive.designation}</p>
-          </div>
-        </div>
-      </div>
+       <ExecutiveCard executive={executive}/>
     ))}
-     
     </div>
   );
 };
