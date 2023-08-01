@@ -5,7 +5,7 @@ const SocialMedia = () => {
   return (
     <div className=''>
       <h1 className='text-md text-white font-semibold py-4'>SOCIAL MEDIA</h1>
-      <div className='flex flex-row items-center gap-5'>
+      <div className='flex flex-row items-center gap-2 lg:gap-5'>
         <Icon socialMediaName="facebook"/>
         <Icon socialMediaName="twitter"/>
         <Icon socialMediaName="instragram"/>

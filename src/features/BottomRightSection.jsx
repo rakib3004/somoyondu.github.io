@@ -4,7 +4,7 @@ import Contact from '../components/Contact';
 
 const BottomRightSection = () => {
   return (
-    <div className='right w-1/2'>
+    <div className='right w-3/5 lg:w-1/2'>
       <FooterTitle/>
       <Contact/>
     </div>
