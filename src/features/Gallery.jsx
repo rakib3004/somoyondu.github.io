@@ -1,6 +1,5 @@
 import React from "react";
 import ImageSlider from "../components/ImageSlider";
-import ViewMoreButton from "../components/ViewMoreButton";
 const Gallery = () => {
   return (
     <div className="bg-[#FFF3CF] py-6 my-6">
@@ -13,7 +12,7 @@ const Gallery = () => {
 
         <ImageSlider />
         
-        <ViewMoreButton />
+     
       </div>
 
     

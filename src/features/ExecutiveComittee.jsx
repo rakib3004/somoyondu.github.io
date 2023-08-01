@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Executives from '../components/Executives';
-
+import ViewMoreButton from '../components/ViewMoreButton'; 
 
 const ExecutiveComittee = () => {
   return (
@@ -17,8 +17,11 @@ const ExecutiveComittee = () => {
       <div className='my-6'>
       </div>
 
-      <div>
       <Executives/>
+
+      <div className='text-center mt-16'>
+      <ViewMoreButton />
+
       </div>
 
     </div>
