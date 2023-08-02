@@ -1,12 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 import Executives from '../components/Executives';
+import AllExecutive from '../components/AllExecutive';
 import ViewMoreButton from '../components/ViewMoreButton'; 
 
 const ExecutiveComittee = () => {
+  const [isDetails, setIsDetails] = useState(true);
   return (
     <div className='py-6 my-6' id="executive">
-      {/* <Title/> */}
       <div className='text-center'>
       <h1 className='text-2xl lg:text-3xl text-center font-bold pb-4 text-[#1D0061]'>কার্যনির্বাহী পরিষদ</h1>
       <h1 className='text-md'>
@@ -17,10 +18,10 @@ const ExecutiveComittee = () => {
       <div className='my-6'>
       </div>
 
-      <Executives/>
+      {isDetails? (<Executives/>):(<AllExecutive/>)}
 
       <div className='text-center mt-16'>
-      <ViewMoreButton />
+      <ViewMoreButton isDetails={isDetails} setIsDetails={setIsDetails} />
 
       </div>
 

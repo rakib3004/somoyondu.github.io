@@ -1,8 +1,8 @@
 import React from 'react'
 import ExecutiveCard from "../ExecutiveCard";
 
-const TopLeader = () => {
-  const executives = [
+const TopLeaders = () => {
+  const topLeaders = [
     {
       name: "এম এ এফ ফাহিম",
       designation: "প্রেসিডেন্ট",
@@ -26,11 +26,11 @@ const TopLeader = () => {
   ];
   return (
     <div className="mx-20 mt-10 grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
-    {executives.map((executive)=>(
+    {topLeaders.map((topLeader)=>(
        <ExecutiveCard executive={executive}/>
     ))}
     </div>
   );
 }
 
-export default TopLeader
+export default TopLeaders

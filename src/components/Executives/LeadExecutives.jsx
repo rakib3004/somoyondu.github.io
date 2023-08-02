@@ -2,7 +2,7 @@ import React from 'react'
 import ExecutiveCard from "../ExecutiveCard";
 
 const LeadExecutives = () => {
-  const executives = [
+  const leadExecutives = [
     {
       name: "এম এ এফ ফাহিম",
       designation: "প্রেসিডেন্ট",
@@ -26,8 +26,8 @@ const LeadExecutives = () => {
   ];
   return (
     <div className="mx-20 mt-10 grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
-    {executives.map((executive)=>(
-       <ExecutiveCard executive={executive}/>
+    {leadExecutives.map((leadExecutive)=>(
+       <ExecutiveCard executive={leadExecutive}/>
     ))}
     </div>
   );
