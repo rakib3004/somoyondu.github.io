@@ -5,7 +5,7 @@ import ViewMoreButton from '../components/ViewMoreButton';
 
 const ExecutiveComittee = () => {
   return (
-    <div className='py-6 my-6'>
+    <div className='py-6 my-6' id="executive">
       {/* <Title/> */}
       <div className='text-center'>
       <h1 className='text-2xl lg:text-3xl text-center font-bold pb-4 text-[#1D0061]'>কার্যনির্বাহী পরিষদ</h1>

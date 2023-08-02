@@ -4,7 +4,7 @@ import Advisors from '../components/Advisors';
 
 const AdvisoryComittee = () => {
   return (
-    <div className='py-6 my-6'>
+    <div className='py-6 my-6' id="advisory">
       <div className='text-center'>
       <h1 className='text-2xl lg:text-3xl text-center font-bold pb-4 text-[#1D0061]'>আমাদের উপদেষ্টামণ্ডলী</h1>
       <h1 className='text-md'>
