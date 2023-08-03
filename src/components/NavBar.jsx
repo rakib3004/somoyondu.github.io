@@ -14,11 +14,11 @@ const NavBar = () => {
       title: "গ্যালারি",
     },
     {
-      id: "executive",
+      id: "executives",
       title: "কার্যনির্বাহী পরিষদ",
     },
     {
-      id: "advisory",
+      id: "advisors",
       title: "উপদেষ্টা",
     },
   ];

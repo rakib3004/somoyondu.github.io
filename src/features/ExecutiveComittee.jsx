@@ -7,7 +7,7 @@ import TopLeaders from '../components/Executives/TopLeaders';
 const ExecutiveComittee = () => {
   const [isDetails, setIsDetails] = useState(true);
   return (
-    <div className='py-6 my-6' id="executive">
+    <div className='py-6 my-6' id="executives">
       <div className='text-center'>
       <h1 className='text-2xl lg:text-3xl text-center font-bold pb-4 text-[#1D0061]'>কার্যনির্বাহী পরিষদ</h1>
       <h1 className='text-md'>
