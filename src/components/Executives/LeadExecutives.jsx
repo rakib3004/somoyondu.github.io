@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import ExecutiveCard from "../ExecutiveCard";
 
 const LeadExecutives = () => {
@@ -25,7 +25,7 @@ const LeadExecutives = () => {
       },
   ];
   return (
-    <div className="mx-20 mt-10 grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-4" id="top-members">
+    <div className="mx-20 mt-10 grid gap-4 grid-cols-2 lg:grid-cols-4">
     {leadExecutives.map((leadExecutive)=>(
        <ExecutiveCard executive={leadExecutive}/>
     ))}
