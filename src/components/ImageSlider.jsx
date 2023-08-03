@@ -1,57 +1,95 @@
-import React from "react";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import { useState } from "react";
 
-const ImageSlider = () => {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 3000,
+const slideStyles = {
+  width: "100%",
+  height: "100%",
+  borderRadius: "10px",
+  backgroundSize: "cover",
+  backgroundPosition: "center",
+};
+
+const rightArrowStyles = {
+  position: "absolute",
+  top: "50%",
+  transform: "translate(0, -50%)",
+  right: "1px",
+  fontSize: "45px",
+  color: "#fff",
+  zIndex: 1,
+  cursor: "pointer",
+};
+
+const leftArrowStyles = {
+  position: "absolute",
+  top: "50%",
+  transform: "translate(0, -50%)",
+  left: "1px",
+  fontSize: "45px",
+  color: "#fff",
+  zIndex: 1,
+  cursor: "pointer",
+};
+
+const sliderStyles = {
+  position: "relative",
+  height: "100%",
+};
+
+
+const dotsContainerStyles = {
+  display: "flex",
+  justifyContent: "center",
+};
+
+const dotStyle = {
+  margin: "0 3px",
+  cursor: "pointer",
+  fontSize: "20px",
+};
+
+const ImageSlider = ({ slides }) => {
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const goToPrevious = () => {
+    const isFirstSlide = currentIndex === 0;
+    const newIndex = isFirstSlide ? slides.length - 1 : currentIndex - 1;
+    setCurrentIndex(newIndex);
+  };
+  const goToNext = () => {
+    const isLastSlide = currentIndex === slides.length - 1;
+    const newIndex = isLastSlide ? 0 : currentIndex + 1;
+    setCurrentIndex(newIndex);
+  };
+  const goToSlide = (slideIndex) => {
+    setCurrentIndex(slideIndex);
+  };
+  const slideStylesWidthBackground = {
+    ...slideStyles,
+    backgroundImage: `url(${slides[currentIndex].url})`,
   };
 
   return (
-    <Slider {...settings}>
+    <div style={sliderStyles}>
       <div>
-        <img
-          src="image1.png"
-          alt="Image 1"
-          
-        />
+        <div onClick={goToPrevious} style={leftArrowStyles}>
+          ❰
+        </div>
+        <div onClick={goToNext} style={rightArrowStyles}>
+          ❱
+        </div>
       </div>
-      <div>
-        <img
-          src="image2.png"
-          alt="Image 2"
-          
-        />
+      <div style={slideStylesWidthBackground}></div>
+      <div style={dotsContainerStyles}>
+        {slides.map((slide, slideIndex) => (
+          <div
+            style={dotStyle}
+            key={slideIndex}
+            onClick={() => goToSlide(slideIndex)}
+          >
+            ●
+          </div>
+        ))}
       </div>
-      <div>
-        <img
-          src="image3.png"
-          alt="Image 3"
-          
-        />
-      </div>
-      <div>
-        <img
-          src="image4.png"
-          alt="Image 4"
-          
-        />
-      </div>
-      <div>
-        <img
-          src="image5.png"
-          alt="Image 5"
-          
-        />
-      </div>
-    </Slider>
+    </div>
   );
 };
 

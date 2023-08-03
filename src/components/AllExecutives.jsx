@@ -1,12 +1,10 @@
 import React, { useState } from 'react'
-import ExecutiveMembers from './Executives/ExecutiveMembers';
-import LeadExecutives from './Executives/LeadExecutives';
-import OfficialExecutives from './Executives/OfficialExecutives';
-import OrganizingExecutives from './Executives/OrganizingExecutives';
 
-const AllExecutive = () => {
-    const [active, setActive] = useState('');
+import ActiveExecutives from './ActiveExecutives';
 
+const AllExecutives = () => {
+    const [active, setActive] = useState('top-leaders');
+ 
     const navLinks = [
         {
             id: "top-leaders",
@@ -26,23 +24,21 @@ const AllExecutive = () => {
         },
         {
             id: "members",
-            title: "কার্যনির্বাহী সদস",
+            title: "কার্যনির্বাহী সদস্য",
         },
     ];
     return (
         <div>
 
+            <nav className={`w-full flex items-center top-0 z-20 bg-primary`}>
 
-            <nav className={`w-full flex items-center absolute top-0 z-20 bg-primary`}>
-
-                <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
+                <div className='w-full flex justify-between items-center max-w-7xl mx-56'>
 
                     <ul className='list-none hidden sm:flex flex-row gap-10'>
                         {navLinks.map((link) => (
                             <li key={link.id}
-
-                                className={`${active === link.title ? "text-white" : "text-[#1D0061]"}
-     hover:text-white text-[18px] font-bold cursor-pointer`}
+                                className={`${active === link.title ? "border-b-4 border-red-500" : ""}
+                                text-[#1D0061] text-[18px] font-bold cursor-pointer`}
                                 onClick={() => setActive(link.title)}
                             >
                                 <a href={`#${link.id}`}> {link.title}</a>
@@ -51,12 +47,11 @@ const AllExecutive = () => {
                     </ul>
                 </div>
             </nav>
-            <ExecutiveMembers />
-            <LeadExecutives />
-            <OfficialExecutives />
-            <OrganizingExecutives />
+
+            <ActiveExecutives selectedTitle={active}/>
+           
         </div>
     )
 }
 
-export default AllExecutive
+export default AllExecutives

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 import Executives from '../components/Executives';
-import AllExecutive from '../components/AllExecutive';
+import AllExecutives from '../components/AllExecutives';
 import ViewMoreButton from '../components/ViewMoreButton'; 
 
 const ExecutiveComittee = () => {
@@ -18,7 +18,7 @@ const ExecutiveComittee = () => {
       <div className='my-6'>
       </div>
 
-      {isDetails? (<Executives/>):(<AllExecutive/>)}
+      {isDetails? (<Executives/>):(<AllExecutives/>)}
 
       <div className='text-center mt-16'>
       <ViewMoreButton isDetails={isDetails} setIsDetails={setIsDetails} />
