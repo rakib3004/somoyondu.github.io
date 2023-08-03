@@ -1,13 +1,12 @@
 import { Dialog, Transition } from '@headlessui/react'
 import { Fragment, useState } from 'react'
+import DonationCard from '../components/Donation/DonationCard';
 
  const DonationModal = ({isOpen, setIsOpen}) => {
 
   function closeModal() {
     setIsOpen(false);
   }
-
-
 
   return (
     <>
@@ -45,12 +44,13 @@ import { Fragment, useState } from 'react'
                     দান
                   </Dialog.Title>
                   <div className="mt-2">
-                    <p className="text-md text-black text-bold py-9 text-center ">
+                    <p className="text-md text-black text-extrabold py-9 text-center ">
                     বিভিন্ন সামাজিক কার্যক্রমে সময়ন সার্বক্ষণিক নিয়জিত আছে।
                      আপনার অনুদান আমরা পৌঁছে দিবো দুঃস্থদের কাছে
                      সমাজকল্যাণমূলক বিভিন্ন কাজে নিয়জিত থাকুন সময়নের মাধ্যমে।
                     </p>
                   </div>
+                  <DonationCard/>
 
                   <div className="mt-4">
                     <button

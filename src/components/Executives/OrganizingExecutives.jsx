@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import ExecutiveCard from "../ExecutiveCard";
 
 const OrganizingExecutives = () => {
@@ -23,7 +23,7 @@ const OrganizingExecutives = () => {
       designation: "সাংগঠনিক সম্পাদক",
       image: "sachine.png",
     },
-    
+
     {
       name: "সাইমা আফিফা খান",
       designation: "সাংগঠনিক সম্পাদক",
@@ -39,15 +39,17 @@ const OrganizingExecutives = () => {
       designation: "সাংগঠনিক সম্পাদক",
       image: "aditiya.png",
     },
-
   ];
   return (
     <div className="mx-6 lg:mx-20 mt-5 lg:mt-10 grid gap-1 lg:gap-4 grid-cols-2 lg:grid-cols-4">
-    {organizingExecutives.map((organizingExecutive)=>(
-       <ExecutiveCard executive={organizingExecutive}/>
-    ))}
+      {organizingExecutives.map((organizingExecutive) => (
+        <ExecutiveCard
+          key={organizingExecutive.name}
+          executive={organizingExecutive}
+        />
+      ))}
     </div>
   );
-}
+};
 
-export default OrganizingExecutives
+export default OrganizingExecutives;
