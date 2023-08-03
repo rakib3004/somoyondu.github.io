@@ -1,17 +1,17 @@
 import React from 'react';
 import ExecutiveCard from "../ExecutiveCard";
 
-const LeadExecutives = () => {
+const TopExecutives = () => {
   const leadExecutives = [
     {
-      name: "এম এ এফ ফাহিম",
-      designation: "প্রেসিডেন্ট",
-      image: "fahim.png",
+      name: "শিফা তাসনিম ",
+      designation: "ভাইস প্রেসিডেন্ট",
+      image: "shifa.png",
     },
     {
-      name: "জাহিদ হাসান",
-      designation: "সিনিয়র ভাইস প্রেসিডেন্ট",
-      image: "jahid.png",
+      name: "আনিকা রয়",
+      designation: "জয়েন্ট সেক্রেটারি",
+      image: "anika.png",
     },
     {
         name: "মোঃ আদবুল্লাহ আননুর",
@@ -25,7 +25,7 @@ const LeadExecutives = () => {
       },
   ];
   return (
-    <div className="mx-20 mt-10 grid gap-4 grid-cols-2 lg:grid-cols-4">
+    <div className="mx-6 lg:mx-20 mt-5 lg:mt-10 grid gap-1 lg:gap-4 grid-cols-2 lg:grid-cols-4">
     {leadExecutives.map((leadExecutive)=>(
        <ExecutiveCard executive={leadExecutive}/>
     ))}
@@ -33,4 +33,4 @@ const LeadExecutives = () => {
   );
 }
 
-export default LeadExecutives
+export default TopExecutives

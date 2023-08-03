@@ -1,9 +1,9 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 
 import ActiveExecutives from './ActiveExecutives';
 
 const AllExecutives = () => {
-    const [title, setTitle] = useState('');
+    const [title, setTitle] = useState('ঊর্ধ্বতন নেতাবৃন্দ');
     const [id, setId] = useState('top-leaders');
 
     const setAttributes = ({link}) =>{
@@ -17,7 +17,7 @@ const AllExecutives = () => {
             title: "ঊর্ধ্বতন নেতাবৃন্দ",
         },
         {
-            id: "top-members",
+            id: "top-executives",
             title: "ঊর্ধ্বতন সদস্য",
         },
         {

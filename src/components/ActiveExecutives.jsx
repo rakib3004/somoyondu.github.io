@@ -1,8 +1,8 @@
 import React from "react";
 import ExecutiveMembers from "./Executives/ExecutiveMembers";
-import LeadExecutives from "./Executives/LeadExecutives";
 import OfficialExecutives from "./Executives/OfficialExecutives";
 import OrganizingExecutives from "./Executives/OrganizingExecutives";
+import TopExecutives from "./Executives/TopExecutives";
 import TopLeaders from "./Executives/TopLeaders";
 const ActiveExecutives = ({ selectedId }) => {
   return (
@@ -11,7 +11,7 @@ const ActiveExecutives = ({ selectedId }) => {
       {selectedId === "members" && <ExecutiveMembers />}
       {selectedId === "official" && <OfficialExecutives />}
       {selectedId === "organizing" && <OrganizingExecutives />}
-      {selectedId === "top-members" && <LeadExecutives />}
+      {selectedId === "top-executives" && <TopExecutives />}
     </div>
   );
 };
