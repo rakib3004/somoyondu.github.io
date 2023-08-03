@@ -18,9 +18,6 @@ const Header = () => {
         <Introduction />
 
       </div>
-
-
-      {/* <DonationModal/> */}
     </div>
   )
 }

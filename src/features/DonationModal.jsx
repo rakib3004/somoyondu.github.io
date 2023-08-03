@@ -1,29 +1,17 @@
 import { Dialog, Transition } from '@headlessui/react'
 import { Fragment, useState } from 'react'
 
- const DonationModal = () => {
-  let [isOpen, setIsOpen] = useState(true)
+ const DonationModal = ({isOpen, setIsOpen}) => {
 
   function closeModal() {
-    setIsOpen(false)
+    setIsOpen(false);
   }
 
-  function openModal() {
-    setIsOpen(true)
-  }
+
 
   return (
     <>
-      {/* <div className="fixed inset-0 flex items-center justify-center">
-        <button
-          type="button"
-          onClick={openModal}
-          className="rounded-md bg-black bg-opacity-20 px-4 py-2 text-sm font-medium text-white hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
-        >
-          Open dialog
-        </button>
-      </div> */}
-
+   
       <Transition appear show={isOpen} as={Fragment}>
         <Dialog as="div" className="relative z-10" onClose={closeModal}>
           <Transition.Child
@@ -49,15 +37,15 @@ import { Fragment, useState } from 'react'
                 leaveFrom="opacity-100 scale-100"
                 leaveTo="opacity-0 scale-95"
               >
-                <Dialog.Panel className="w-full max-w-md transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all">
+                <Dialog.Panel className="w-full max-w-2xl transform overflow-hidden rounded-2xl bg-white p-14 m-8 text-left align-middle shadow-xl transition-all">
                   <Dialog.Title
                     as="h1"
-                    className="text-lg font-medium leading-6 text-gray-900"
+                    className="text-4xl text-center font-medium leading-6 text-gray-900"
                   >
                     দান
                   </Dialog.Title>
                   <div className="mt-2">
-                    <p className="text-sm text-gray-500">
+                    <p className="text-md text-black text-bold py-9 text-center ">
                     বিভিন্ন সামাজিক কার্যক্রমে সময়ন সার্বক্ষণিক নিয়জিত আছে।
                      আপনার অনুদান আমরা পৌঁছে দিবো দুঃস্থদের কাছে
                      সমাজকল্যাণমূলক বিভিন্ন কাজে নিয়জিত থাকুন সময়নের মাধ্যমে।
@@ -70,7 +58,7 @@ import { Fragment, useState } from 'react'
                       className="inline-flex justify-center rounded-md border border-transparent bg-blue-100 px-4 py-2 text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
                       onClick={closeModal}
                     >
-                      Got it, thanks!
+                      ধন্যবাদ 
                     </button>
                   </div>
                 </Dialog.Panel>

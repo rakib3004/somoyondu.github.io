@@ -34,7 +34,7 @@ setIsOpen(true);
   return (
 
 <div>
-{isOpen && <DonationModal/>}
+{isOpen && <DonationModal isOpen={isOpen} setIsOpen={setIsOpen}/>}
 
 <nav className={`w-full flex items-center absolute top-0 z-20 bg-primary`}>
 

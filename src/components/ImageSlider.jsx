@@ -6,9 +6,9 @@ const slideStyles = {
   backgroundSize: "cover",
   backgroundPosition: "center",
 };
-const rightArrowStyles = "absolute top-1/2 transform -translate-y-1/2 right-1 text-white text-lg z-10 cursor-pointer";
+const rightArrowStyles = "absolute top-1/2 transform -translate-y-1/2 right-3 lg:right-1 text-white text-[36px] z-10 cursor-pointer";
 
-const leftArrowStyles = "absolute top-1/2 transform -translate-y-1/2 left-1 text-white text-lg z-10 cursor-pointer";
+const leftArrowStyles = "absolute top-1/2 transform -translate-y-1/2 left-3 lg:left-1 text-white text-[36px] z-10 cursor-pointer";
 
 const sliderStyles = "relative h-full";
 

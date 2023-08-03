@@ -20,7 +20,7 @@ const ExecutiveComittee = () => {
 
       {isDetails? (<TopLeaders/>):(<AllExecutives/>)}
 
-      <div className='text-center mt-16'>
+      <div className='text-center mt-4 lg:mt-16 '>
       <ViewMoreButton isDetails={isDetails} setIsDetails={setIsDetails} />
 
       </div>

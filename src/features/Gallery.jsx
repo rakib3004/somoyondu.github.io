@@ -18,7 +18,7 @@ const Gallery = () => {
   return (
     <div className="bg-[#FFF3CF] py-6 my-6" id="gallery">
       <div className="text-center">
-        <h1 className="text-3xl lg:text-5xl text-center font-bold pb-4 pt-6 text-[#1D0061]">
+        <h1 className="text-2xl lg:text-4xl text-center font-bold pb-4 pt-6 text-[#1D0061]">
           গ্যালারি
         </h1>
         <h1 className="text-base">একনজরে সময়নের কার্যক্রম</h1>
@@ -29,8 +29,7 @@ const Gallery = () => {
      
       </div>
 
-    
-
+  
     </div>
   );
 };
