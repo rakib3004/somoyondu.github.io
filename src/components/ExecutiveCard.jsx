@@ -2,7 +2,7 @@ import React from "react";
 
 const ExecutiveCard = ({executive}) => {
   return (
-    <div class="w-44 lg:w-64 mx-auto p-6 lg:p-8 bg-white ring-4 ring-[#6251A7] rounded-xl shadow-md ">
+    <div class="w-36 lg:w-64 mx-auto p-1 lg:p-8 bg-white ring-4 ring-[#6251A7] rounded-xl shadow-md ">
         <img
           class="h-12 lg:h-24 mx-auto rounded-full ring-4 ring-[#6251A7] mt-3 lg:mt-7"
           src={executive.image}

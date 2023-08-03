@@ -1,5 +1,4 @@
 import { useState } from "react";
-
 const slideStyles = {
   width: "100%",
   height: "100%",
@@ -7,45 +6,15 @@ const slideStyles = {
   backgroundSize: "cover",
   backgroundPosition: "center",
 };
+const rightArrowStyles = "absolute top-1/2 transform -translate-y-1/2 right-1 text-white text-lg z-10 cursor-pointer";
 
-const rightArrowStyles = {
-  position: "absolute",
-  top: "50%",
-  transform: "translate(0, -50%)",
-  right: "1px",
-  fontSize: "45px",
-  color: "#1D0061",
-  zIndex: 1,
-  cursor: "pointer",
-};
+const leftArrowStyles = "absolute top-1/2 transform -translate-y-1/2 left-1 text-white text-lg z-10 cursor-pointer";
 
-const leftArrowStyles = {
-  position: "absolute",
-  top: "50%",
-  transform: "translate(0, -50%)",
-  left: "1px",
-  fontSize: "45px",
-  color: "#1D0061",
-  zIndex: 1,
-  cursor: "pointer",
-};
+const sliderStyles = "relative h-full";
 
-const sliderStyles = {
-  position: "relative",
-  height: "100%",
-};
+const dotsContainerStyles = "flex justify-center text-32100F";
 
-
-const dotsContainerStyles = {
-  display: "flex",
-  justifyContent: "center",
-};
-
-const dotStyle = {
-  margin: "0 3px",
-  cursor: "pointer",
-  fontSize: "20px",
-};
+const dotStyle = "mx-3 cursor-pointer text-20";
 
 const ImageSlider = ({ slides }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -68,20 +37,20 @@ const ImageSlider = ({ slides }) => {
   };
 
   return (
-    <div style={sliderStyles}>
+    <div className={`${sliderStyles}`}>
       <div>
-        <div onClick={goToPrevious} style={leftArrowStyles}>
+        <div onClick={goToPrevious} className={`${leftArrowStyles}`}>
           ❰
         </div>
-        <div onClick={goToNext} style={rightArrowStyles}>
+        <div onClick={goToNext} className={`${rightArrowStyles}`}>
           ❱
         </div>
       </div>
       <div style={slideStylesWidthBackground}></div>
-      <div style={dotsContainerStyles}>
+      <div className={`${dotsContainerStyles}`}>
         {slides.map((slide, slideIndex) => (
           <div
-            style={dotStyle}
+            className={`${dotStyle}`}
             key={slideIndex}
             onClick={() => goToSlide(slideIndex)}
           >

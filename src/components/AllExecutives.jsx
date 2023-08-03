@@ -36,15 +36,15 @@ const AllExecutives = () => {
     return (
         <div>
 
-            <nav className={`w-full flex items-center top-0 z-20 bg-primary`}>
+            <nav className={`w-full flex items-center top-0 bg-primary`}>
 
-                <div className='w-full flex justify-between items-center max-w-7xl mx-2 lg:mx-56'>
+                <div className='w-full flex justify-between items-center max-w-7xl ml-16 lg:ml-56'>
 
-                    <ul className='list-none hidden sm:flex flex-row gap-2 lg:gap-10'>
+                    <ul className='list-none flex flex-row gap-2 lg:gap-8'>
                         {navLinks.map((link) => (
                             <li key={link.id}
-                                className={`${title === link.title ? "border-b-4 border-red-500" : ""}
-                                text-[#1D0061] text-[18px] font-bold cursor-pointer`}
+                                className={`${title === link.title ? "border-b-2 lg:border-b-4 border-red-500" : ""}
+                                text-[#1D0061] text-[14px] lg:text-[18px] font-bold cursor-pointer`}
                                 onClick={() =>  {setTitle(link.title); setId(link.id); }}
                             >
                                 <a href={`#${link.id}`}> {link.title}</a>
