@@ -1,7 +1,44 @@
 import React from 'react'
 
 const OrganizingExecutivesService = () => {
-  return 
+  return  [
+    {
+      name: "মাহমুদুল হাসান মারজুক",
+      designation: "সাংগঠনিক সম্পাদক",
+      image: "marzuk.png",
+    },
+    {
+      name: "মোঃ রাকিব তরফদার",
+      designation: "সাংগঠনিক সম্পাদক",
+      image: "rakib.png",
+    },
+    {
+      name: "মুন্সি রাব্বি আহমেদ (আকিব)",
+      designation: "সাংগঠনিক সম্পাদক",
+      image: "akib.png",
+    },
+    {
+      name: "সচিন কুমার অচিন্ত",
+      designation: "সাংগঠনিক সম্পাদক",
+      image: "sachine.png",
+    },
+
+    {
+      name: "সাইমা আফিফা খান",
+      designation: "সাংগঠনিক সম্পাদক",
+      image: "afifa.png",
+    },
+    {
+      name: "আয়হান নাভিদ নওরোজ",
+      designation: "সাংগঠনিক সম্পাদক",
+      image: "navid.png",
+    },
+    {
+      name: "অদ্বিতীয়া মুকুল",
+      designation: "সাংগঠনিক সম্পাদক",
+      image: "aditiya.png",
+    },
+  ];
 }
 
 export default OrganizingExecutivesService
