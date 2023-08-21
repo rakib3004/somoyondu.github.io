@@ -53,11 +53,6 @@ const ExecutiveMembersService = () => {
       designation: "কার্যনির্বাহী সদস্য",
       image: "fahim.png",
     },
-    {
-      name: "নোশিন তাবাসসুম তাহেরি",
-      designation: "কার্যনির্বাহী সদস্য",
-      image: "jahid.png",
-    },
   ];
 }
 

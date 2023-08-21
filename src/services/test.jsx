@@ -1,46 +1,3 @@
-import React from 'react'
-
-const OfficialsService = () => {
-  return [
-    {
-      name: "কাজী আদিল আহনাফ",
-      designation: "কোষাধ্যক্ষ",
-      image: "fahim.png",
-    },
-    {
-      name: "মোঃ ইন্তেসার যুবায়ের",
-      designation: "অফিস সেক্রেটারি",
-      image: "jahid.png",
-    },
-    {
-      name: "আকিবুল ইসলাম আকিব",
-      designation: "ডেপুটি অফিস সেক্রেটারি",
-      image: "mushfiqur.png",
-    },
-    {
-      name: "সাবের হোসেন",
-      designation: "প্রেস সেক্রেটারি",
-      image: "annur.png",
-    },
-    {
-      name: "মোঃ আমিনুল ইসলাম",
-      designation: "ডেপুটি প্রেস সেক্রেটারি",
-      image: "annur.png",
-    },
-    {
-      name: "দেবপ্রিয় দিপু",
-      designation: "সমাজ কল্যাণ সেক্রেটারি",
-      image: "annur.png",
-    },
-    {
-      name: "শরিফুল ইসলাম সজল",
-      designation: "ডেপুটি সমাজ কল্যাণ সেক্রেটারি",
-      image: "annur.png",
-    },
-  ];
-
-  /*
-
 কোষাধ্যক্ষ 
 কাজী আদিল আহনাফ 
 
@@ -120,7 +77,49 @@ const OfficialsService = () => {
 
 আলভী আহমেদ খান
 কর্পোরেট জোট সম্পাদক
-  */
-}
 
-export default OfficialsService
+
+
+{
+    name: " মোঃ আশিকুর রহমান",
+    designation: "ভাইস প্রেসিডেন্ট",
+    image: "shifa.png",
+  },
+  {
+    name: "মেহেদি হাসান",
+    designation: "ভাইস প্রেসিডেন্ট",
+    image: "anika.png",
+  },
+  {
+    name: "শিফা তাসনিম",
+    designation: "ভাইস প্রেসিডেন্ট",
+    image: "mushfiqur.png",
+  },
+  {
+    name: "আনিকা রয়",
+    designation: "জয়েন্ট সেক্রেটারি",
+    image: "annur.png",
+  },
+  {
+    name: "মোঃ আশিক উল্লাহ্‌ ফাহিদ",
+    designation: "জয়েন্ট সেক্রেটারি",
+    image: "annur.png",
+  },
+  {
+  {
+    name: "সাদমান বিন শাফায়েত",
+    designation: "জয়েন্ট সেক্রেটারি",
+    image: "annur.png",
+  },
+
+  /*
+
+  মোঃ আশিকুর রহমান
+মেহেদি হাসান
+শিফা তাসনিম
+
+আনিকা রয় 
+মোঃ আশিক উল্লাহ্‌ ফাহিদ
+সাদমান বিন শাফায়েত
+
+*/
