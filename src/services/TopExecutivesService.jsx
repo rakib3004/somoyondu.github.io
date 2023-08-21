@@ -3,24 +3,35 @@ import React from 'react'
 const TopExecutivesService = () => {
   return  [
     {
-      name: "শিফা তাসনিম ",
-      designation: "ভাইস প্রেসিডেন্ট",
+      name: " মোঃ আশিকুর রহমান",
+      designation: "সহ সভাপতি",
+      image: "boy.png",
+    },
+    {
+      name: "মেহেদি হাসান",
+      designation: "সহ সভাপতি",
+      image: "boy.png",
+    },
+    {
+      name: "শিফা তাসনিম",
+      designation: "সহ সভাপতি",
       image: "shifa.png",
     },
     {
       name: "আনিকা রয়",
-      designation: "জয়েন্ট সেক্রেটারি",
+      designation: "যুগ্ম-সাধারণ সম্পাদক",
       image: "anika.png",
     },
     {
-      name: "মোঃ আদবুল্লাহ আননুর",
-      designation: "জেনারেল সেক্রেটারি",
-      image: "mushfiqur.png",
+      name: "মোঃ আশিক উল্লাহ্‌ ফাহিদ",
+      designation: "যুগ্ম-সাধারণ সম্পাদক",
+      image: "boy.png",
     },
+    
     {
-      name: "এস এম মুশফিক হোসেন",
-      designation: "সিনিয়র জয়েন্ট সেক্রেটারি",
-      image: "annur.png",
+      name: "সাদমান বিন শাফায়েত",
+      designation: "যুগ্ম-সাধারণ সম্পাদক",
+      image: "boy.png",
     },
   ];
 }

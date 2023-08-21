@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 
 import AllExecutives from '../components/AllExecutives';
 import ViewMoreButton from '../components/ViewMoreButton'; 
+import ViewLessButton from '../components/ViewLessButton';
 import TopLeaders from '../components/Executives/TopLeaders';
 
 const ExecutiveComittee = () => {
@@ -18,12 +19,33 @@ const ExecutiveComittee = () => {
       <div className='my-6'>
       </div>
 
-      {isDetails? (<TopLeaders/>):(<AllExecutives/>)}
+      {isDetails? (
+      
+      <div>
+              <TopLeaders/>
 
-      <div className='text-center mt-4 lg:mt-16 '>
+         <div className='text-center mt-4 lg:mt-16 '>
       <ViewMoreButton isDetails={isDetails} setIsDetails={setIsDetails} />
-
       </div>
+      </div>
+      
+      
+      ):(
+      
+        <div>
+          <div className='m-10'></div>
+      <AllExecutives/>
+      <div className='text-center mt-4 lg:mt-16 '>
+      <ViewLessButton isDetails={isDetails} setIsDetails={setIsDetails} />
+      </div>
+        </div>
+      
+      
+      )}
+
+      {/* <div className='text-center mt-4 lg:mt-16 '>
+      <ViewMoreButton isDetails={isDetails} setIsDetails={setIsDetails} />
+      </div> */}
 
     </div>
   )

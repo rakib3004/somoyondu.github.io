@@ -18,18 +18,22 @@ const OrganizingExecutivesService = () => {
       image: "akib.png",
     },
     {
-      name: "সচিন কুমার অচিন্ত",
+      name: "শচীন কুমার অচিন্ত",
       designation: "সাংগঠনিক সম্পাদক",
       image: "sachine.png",
     },
-
+    {
+      name: "তাহসিন নওয়ার প্রাচী",
+      designation: "সাংগঠনিক সম্পাদক",
+      image: "afifa.png",
+    },
     {
       name: "সাইমা আফিফা খান",
       designation: "সাংগঠনিক সম্পাদক",
       image: "afifa.png",
     },
     {
-      name: "আয়হান নাভিদ নওরোজ",
+      name: "প্রসেনজিৎ দেব পার্থ",
       designation: "সাংগঠনিক সম্পাদক",
       image: "navid.png",
     },
@@ -38,10 +42,40 @@ const OrganizingExecutivesService = () => {
       designation: "সাংগঠনিক সম্পাদক",
       image: "aditiya.png",
     },
+    {
+      name: "উৎসব বড়ুয়া",
+      designation: "সাংগঠনিক সম্পাদক",
+      image: "navid.png",
+    },
+    {
+      name: "মোঃ শিপলু রহমান",
+      designation: "সাংগঠনিক সম্পাদক",
+      image: "aditiya.png",
+    },
+    {
+      name: "মোঃ মানিক ইসলাম",
+      designation: "সাংগঠনিক সম্পাদক",
+      image: "navid.png",
+    },
+    {
+      name: "এ আর রিয়াদ",
+      designation: "সাংগঠনিক সম্পাদক",
+      image: "aditiya.png",
+    },
+    {
+      name: "আয়হান নাভিদ নওরোজ",
+      designation: "সাংগঠনিক সম্পাদক",
+      image: "navid.png",
+    },
+    {
+      name: "মোঃ নাঈম আহমেদ",
+      designation: "সাংগঠনিক সম্পাদক",
+      image: "aditiya.png",
+    },
   ];
   /*
 
-  মাহমুদুল হাসান মারজুক
+মাহমুদুল হাসান মারজুক
 মোঃ রাকিব তরফদার
 মুন্সি রাব্বি আহমেদ (আকিব)
 শচীন কুমার অচিন্ত
