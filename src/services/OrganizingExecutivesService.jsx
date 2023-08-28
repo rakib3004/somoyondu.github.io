@@ -25,7 +25,7 @@ const OrganizingExecutivesService = () => {
     {
       name: "তাহসিন নওয়ার প্রাচী",
       designation: "সাংগঠনিক সম্পাদক",
-      image: "afifa.png",
+      image: "girl.png",
     },
     {
       name: "সাইমা আফিফা খান",
@@ -35,7 +35,7 @@ const OrganizingExecutivesService = () => {
     {
       name: "প্রসেনজিৎ দেব পার্থ",
       designation: "সাংগঠনিক সম্পাদক",
-      image: "navid.png",
+      image: "boy.png",
     },
     {
       name: "অদ্বিতীয়া মুকুল",
@@ -45,32 +45,32 @@ const OrganizingExecutivesService = () => {
     {
       name: "উৎসব বড়ুয়া",
       designation: "সাংগঠনিক সম্পাদক",
-      image: "navid.png",
+      image: "boy.png",
     },
     {
       name: "মোঃ শিপলু রহমান",
       designation: "সাংগঠনিক সম্পাদক",
-      image: "aditiya.png",
+      image: "boy.png",
     },
     {
       name: "মোঃ মানিক ইসলাম",
       designation: "সাংগঠনিক সম্পাদক",
-      image: "navid.png",
+      image: "boy.png",
     },
     {
       name: "এ আর রিয়াদ",
       designation: "সাংগঠনিক সম্পাদক",
-      image: "aditiya.png",
+      image: "boy.png",
     },
     {
       name: "আয়হান নাভিদ নওরোজ",
       designation: "সাংগঠনিক সম্পাদক",
-      image: "navid.png",
+      image: "boy.png",
     },
     {
       name: "মোঃ নাঈম আহমেদ",
       designation: "সাংগঠনিক সম্পাদক",
-      image: "aditiya.png",
+      image: "boy.png",
     },
   ];
   /*
