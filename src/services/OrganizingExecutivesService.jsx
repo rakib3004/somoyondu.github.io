@@ -65,7 +65,7 @@ const OrganizingExecutivesService = () => {
     {
       name: "আয়হান নাভিদ নওরোজ",
       designation: "সাংগঠনিক সম্পাদক",
-      image: "boy.png",
+      image: "navid.png",
     },
     {
       name: "মোঃ নাঈম আহমেদ",
