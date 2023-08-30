@@ -18,7 +18,7 @@ const TopLeadersService = () => {
       image: "members/annur.png",
     },
     {
-      name: "এস এম মুশফিক হোসেন",
+      name: "এস. এম. মুসফিক হোসাইন ",
       designation: "সিনিয়র যুগ্ম-সাধারণ সম্পাদক",
       image: "members/mushfiqur.png",
     },

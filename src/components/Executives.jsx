@@ -18,7 +18,7 @@ const Executives = () => {
         image: "mushfiqur.png",
       },
       {
-        name: "এস এম মুশফিক হোসেন",
+        name: "এস. এম. মুসফিক হোসাইন ",
         designation: "সিনিয়র জয়েন্ট সেক্রেটারি",
         image: "annur.png",
       },

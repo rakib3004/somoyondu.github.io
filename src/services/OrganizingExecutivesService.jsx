@@ -1,9 +1,8 @@
-import React from 'react'
 
 const OrganizingExecutivesService = () => {
   return  [
     {
-      name: "মাহমুদুল হাসান মারজুক",
+      name: "মাহমুদুল হাসান মার্জুক",
       designation: "সাংগঠনিক সম্পাদক",
       image: "members/marzuk.png",
     },
@@ -18,7 +17,7 @@ const OrganizingExecutivesService = () => {
       image: "members/akib.png",
     },
     {
-      name: "শচীন কুমার অচিন্ত",
+      name: "শচীন মন্ডল",
       designation: "সাংগঠনিক সম্পাদক",
       image: "members/sachine.png",
     },
@@ -48,7 +47,7 @@ const OrganizingExecutivesService = () => {
       image: "members/boy.png",
     },
     {
-      name: "মোঃ শিপলু রহমান",
+      name: "মোঃ শিপলুর রহমান",
       designation: "সাংগঠনিক সম্পাদক",
       image: "members/boy.png",
     },
@@ -73,24 +72,8 @@ const OrganizingExecutivesService = () => {
       image: "members/boy.png",
     },
   ];
-  /*
+  
 
-মাহমুদুল হাসান মারজুক
-মোঃ রাকিব তরফদার
-মুন্সি রাব্বি আহমেদ (আকিব)
-শচীন কুমার অচিন্ত
-তাহসিন নওয়ার প্রাচী
-সাইমা আফিফা খান
-প্রসেনজিৎ দেব পার্থ
-অদ্বিতীয়া মুকুল
-উৎসব বড়ুয়া
-মোঃ শিপলু রহমান
-মোঃ মানিক ইসলাম
-এ আর রিয়াদ
-আয়হান নাভিদ নওরোজ
-মোঃ নাঈম আহমেদ
-
-*/
 }
 
 export default OrganizingExecutivesService
