@@ -3,7 +3,7 @@ import React from 'react'
 const AdvisorCard = ({advisor}) => {
   return (
     <div>
- <div class="w-32 lg:w-40 mx-auto ring-8 ring-[#6251A7] hover:ring-[#D9342E] shadow-md">
+ <div class="w-32 lg:w-40 mx-auto ring-8 ring-[#6251A7] hover:ring-[#D9342E] shadow-md transform hover:scale-105 duration-500">
         <img
           class="h-32 lg:h-40 w-auto"
           src={advisor.image}

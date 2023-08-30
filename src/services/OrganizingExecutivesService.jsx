@@ -39,7 +39,7 @@ const OrganizingExecutivesService = () => {
     {
       name: "অদ্বিতীয়া মুকুল",
       designation: "সাংগঠনিক সম্পাদক",
-      image: "members/aditiya.png",
+      image: "members/additiya.jpg",
     },
     {
       name: "উৎসব বড়ুয়া",
