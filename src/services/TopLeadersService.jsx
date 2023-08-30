@@ -10,7 +10,7 @@ const TopLeadersService = () => {
     {
       name: "জাহিদ হাসান",
       designation: "সিনিয়র সহ সভাপতি",
-      image: "members/jahid.png",
+      image: "members/zahid.jpeg",
     },
     {
       name: "মোঃ আদবুল্লাহ আননুর",
@@ -20,7 +20,7 @@ const TopLeadersService = () => {
     {
       name: "এস. এম. মুসফিক হোসাইন ",
       designation: "সিনিয়র যুগ্ম-সাধারণ সম্পাদক",
-      image: "members/mushfiqur.png",
+      image: "members/musfick.jpg",
     },
   ];
 }

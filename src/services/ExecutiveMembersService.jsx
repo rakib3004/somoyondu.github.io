@@ -4,54 +4,48 @@ const ExecutiveMembersService = () => {
     {
       name: "সিবগাত উল্লাহ্‌ খান",
       designation: "কার্যনির্বাহী সদস্য",
-      image: "members/boy.png",
+      image: "members/boy.jpg",
     },
     {
       name: "ফাতেমা হাসান মেহজাবিন",
       designation: "কার্যনির্বাহী সদস্য",
-      image: "members/girl.png",
+      image: "members/girl.jpg",
     },
     {
       name: "মোঃ মনিরুল ইসলাম সজীব",
       designation: "কার্যনির্বাহী সদস্য",
-      image: "members/boy.png",
+      image: "members/monirul.jpg",
     },
-    {
-      name: "উম্মে সালমা আলফি",
-      designation: "কার্যনির্বাহী সদস্য",
-      image: "members/girl.png",
-    },
-
     {
       name: "প্রান্ত ঘোষ",
       designation: "কার্যনির্বাহী সদস্য",
-      image: "members/boy.png",
+      image: "members/boy.jpg",
     },
     {
       name: "নোশিন তাবাসসুম তাহেরি",
       designation: "কার্যনির্বাহী সদস্য",
-      image: "members/girl.png",
+      image: "members/girl.jpg",
     },
     {
       name: "জারিন সুবা",
       designation: "কার্যনির্বাহী সদস্য",
-      image: "members/girl.png",
+      image: "members/girl.jpg",
     },
     {
       name: "লামিয়া ইসলাম মীম",
       designation: "কার্যনির্বাহী সদস্য",
-      image: "members/girl.png",
+      image: "members/mim.jpg",
     },
     {
       name: "উম্মে সালমা আলফি",
       designation: "কার্যনির্বাহী সদস্য",
-      image: "members/girl.png",
+      image: "members/girl.jpg",
     },
 
     {
       name: "সৈয়দ সাদমান ইসলাম",
       designation: "কার্যনির্বাহী সদস্য",
-      image: "members/boy.png",
+      image: "members/sadman.jpg",
     },
   ];
 }

@@ -5,12 +5,12 @@ const TopExecutivesService = () => {
     {
       name: " মোঃ আশিকুর রহমান",
       designation: "সহ সভাপতি",
-      image: "members/boy.png",
+      image: "members/ashiqur.jpg",
     },
     {
       name: "মেহেদি হাসান",
       designation: "সহ সভাপতি",
-      image: "members/boy.png",
+      image: "members/boy.jpg",
     },
     {
       name: "শিফা তাসনিম",
@@ -25,13 +25,13 @@ const TopExecutivesService = () => {
     {
       name: "মোঃ আশিক উল্লাহ্‌ ফাহিদ",
       designation: "যুগ্ম-সাধারণ সম্পাদক",
-      image: "members/boy.png",
+      image: "members/boy.jpg",
     },
     
     {
       name: "সাদমান বিন শাফায়েত",
       designation: "যুগ্ম-সাধারণ সম্পাদক",
-      image: "members/boy.png",
+      image: "members/boy.jpg",
     },
   ];
 }
