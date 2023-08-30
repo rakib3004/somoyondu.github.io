@@ -57,9 +57,9 @@ const OrganizingExecutivesService = () => {
       image: "members/boy.jpg",
     },
     {
-      name: "এ আর রিয়াদ",
+      name: "আশিকুর রহমান",
       designation: "সাংগঠনিক সম্পাদক",
-      image: "members/boy.jpg",
+      image: "members/asikur.jpeg",
     },
     {
       name: "আয়হান নাভিদ নওরোজ",
@@ -71,6 +71,12 @@ const OrganizingExecutivesService = () => {
       designation: "সাংগঠনিক সম্পাদক",
       image: "members/boy.jpg",
     },
+    {
+      name: "ইমামুল হক",
+      designation: "সাংগঠনিক সম্পাদক",
+      image: "members/immemul.jpg",
+    },
+    
   ];
   
 

@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const AdvisorsService = () => {
-  return[
+  return [
     {
       name: "অধ্যাপক ড. মোঃ আখতারুজ্জামান",
       designation: "মাননীয় উপাচার্য, ঢাকা বিশ্ববিদ্যালয়",
@@ -22,17 +22,17 @@ const AdvisorsService = () => {
       designation: "ভারপ্রাপ্ত কর্মকর্তা, খিলক্ষেত থানা",
       image: "advisors/kazi-shahin.png",
     },
-      {
-        name: "হাবিবুর রহমান জুয়েল",
-        designation: "প্রতিষ্ঠাতা সভাপতি, ফাল্গুনী বাস রুট",
-        image: "advisors/habibur-rahman.png",
-      },
-      {
-        name: "কামরুল হাসান সেতু",
-        designation: "সাবেক সভাপতি, ফাল্গুনী বাস রুট",
-        image: "advisors/kamrul-hasan.png",
-      },
+    {
+      name: "হাবিবুর রহমান জুয়েল",
+      designation: "প্রতিষ্ঠাতা সভাপতি, ফাল্গুনী বাস রুট",
+      image: "advisors/habibur-rahman.png",
+    },
+    {
+      name: "কামরুল হাসান সেতু",
+      designation: "সাবেক সভাপতি, ফাল্গুনী বাস রুট",
+      image: "advisors/kamrul-hasan.png",
+    },
   ];
-}
+};
 
-export default AdvisorsService
+export default AdvisorsService;

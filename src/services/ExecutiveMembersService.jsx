@@ -1,4 +1,3 @@
-
 const ExecutiveMembersService = () => {
   return [
     {
@@ -48,6 +47,6 @@ const ExecutiveMembersService = () => {
       image: "members/sadman.jpg",
     },
   ];
-}
+};
 
-export default ExecutiveMembersService
+export default ExecutiveMembersService;

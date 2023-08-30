@@ -1,16 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const TopExecutivesService = () => {
-  return  [
+  return [
     {
       name: " মোঃ আশিকুর রহমান",
       designation: "সহ সভাপতি",
       image: "members/ashiqur.jpg",
-    },
-    {
-      name: "মেহেদি হাসান",
-      designation: "সহ সভাপতি",
-      image: "members/boy.jpg",
     },
     {
       name: "শিফা তাসনিম",
@@ -23,17 +18,22 @@ const TopExecutivesService = () => {
       image: "members/anika.png",
     },
     {
+      name: "মেহেদি হাসান",
+      designation: "সহ সভাপতি",
+      image: "members/boy.jpg",
+    },
+    {
       name: "মোঃ আশিক উল্লাহ্‌ ফাহিদ",
       designation: "যুগ্ম-সাধারণ সম্পাদক",
       image: "members/boy.jpg",
     },
-    
+
     {
       name: "সাদমান বিন শাফায়েত",
       designation: "যুগ্ম-সাধারণ সম্পাদক",
       image: "members/boy.jpg",
     },
   ];
-}
+};
 
-export default TopExecutivesService
+export default TopExecutivesService;

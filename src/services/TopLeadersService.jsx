@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const TopLeadersService = () => {
   return [
@@ -23,6 +23,6 @@ const TopLeadersService = () => {
       image: "members/musfick.jpg",
     },
   ];
-}
+};
 
-export default TopLeadersService
+export default TopLeadersService;

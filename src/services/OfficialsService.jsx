@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const OfficialsService = () => {
   return [
@@ -37,7 +37,7 @@ const OfficialsService = () => {
       designation: "উপ-সমাজ কল্যাণ সম্পাদক",
       image: "members/boy.jpg",
     },
-     {
+    {
       name: "রায়রা বিনতে রাফিক",
       designation: "তথ্য প্রযুক্তি সম্পাদক",
       image: "members/girl.jpg",
@@ -47,7 +47,7 @@ const OfficialsService = () => {
       designation: "উপ-তথ্য প্রযুক্তি সম্পাদক",
       image: "members/nazmul.jpg",
     },
-   {
+    {
       name: "কাওসার জাহান ইরিন",
       designation: "ছাত্রী বিষয়ক সম্পাদক",
       image: "members/erin.jpg",
@@ -57,7 +57,7 @@ const OfficialsService = () => {
       designation: "উপ-ছাত্রী বিষয়ক সম্পাদক",
       image: "members/hasnat.JPG",
     },
-      {
+    {
       name: "আবু রাহাত",
       designation: "ত্রাণ ও দুর্যোগ ব্যবস্থাপনা সম্পাদক",
       image: "members/boy.jpg",
@@ -67,7 +67,7 @@ const OfficialsService = () => {
       designation: "উপ-ত্রাণ ও দুর্যোগ ব্যবস্থাপনা সম্পাদক",
       image: "members/boy.jpg",
     },
-      {
+    {
       name: "মোঃ তায়্যেবুর রহমান",
       designation: "ক্রীড়া সম্পাদক",
       image: "members/tayebur.jpg",
@@ -77,7 +77,7 @@ const OfficialsService = () => {
       designation: "উপ-ক্রীড়া সম্পাদক",
       image: "members/boy.jpg",
     },
-      {
+    {
       name: "হাসিনা আক্তার",
       designation: "পরিকল্পনা সম্পাদক",
       image: "members/girl.jpg",
@@ -87,60 +87,57 @@ const OfficialsService = () => {
       designation: "উপ-পরিকল্পনা সম্পাদক",
       image: "members/girl.jpg",
     },
-     {
+    {
       name: "শাহাদাত হোসেন",
       designation: "আইন বিষয়ক সম্পাদক",
       image: "members/boy.jpg",
     },
-     {
+    {
       name: "মোঃ আবু জায়েদ",
       designation: "উপ-আইন বিষয়ক সম্পাদক",
       image: "members/boy.jpg",
     },
-     {
+    {
       name: "লিওন রিছিল",
       designation: "স্বাস্থ্য সম্পাদক",
       image: "members/boy.jpg",
     },
-     {
+    {
       name: "মুশফিকুর রহমান মিজু",
       designation: "উপ-স্বাস্থ্য সম্পাদক",
       image: "members/boy.jpg",
     },
-     {
+    {
       name: "মোসাঃ মাবিয়া আক্তার ",
       designation: "সাংস্কৃতিক বিষয়ক সম্পাদক",
       image: "members/mabia.jpg",
     },
-     {
+    {
       name: "মুকছেতাতুন নোভা",
       designation: "উপ-সাংস্কৃতিক বিষয়ক সম্পাদক",
       image: "members/girl.jpg",
     },
-     {
+    {
       name: "আনিকা তাবাসসুম রুপা",
       designation: "আতিথেয়তা বিষয়ক সম্পাদক",
       image: "members/girl.jpg",
     },
-     {
+    {
       name: "আব্দুল্লাহ আল আরাফাত (শুদ্ধ)",
       designation: "উপ-আতিথেয়তা বিষয়ক সম্পাদক",
       image: "members/boy.jpg",
     },
-     {
+    {
       name: "মাহতাব আল তানবীম",
       designation: "ধর্ম বিষয়ক সম্পাদক",
       image: "members/boy.jpg",
     },
-     {
+    {
       name: "আলভী আহমেদ খান",
       designation: "কর্পোরেট জোট সম্পাদক",
       image: "members/boy.jpg",
     },
-
   ];
+};
 
- 
-}
-
-export default OfficialsService
+export default OfficialsService;
