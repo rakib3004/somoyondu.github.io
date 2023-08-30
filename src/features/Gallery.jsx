@@ -3,11 +3,11 @@ import ImageSlider from "../components/ImageSlider";
 const Gallery = () => {
 
   const slides = [
-    { url: "image1.png", title: "beach" },
-    { url: "image2.png", title: "boat" },
-    { url: "image3.png", title: "forest" },
-    { url: "image4.png", title: "city" },
-    { url: "image5.png", title: "italy" },
+    { url: "gallery/image1.png", title: "somoyon1" },
+    { url: "gallery/image2.png", title: "somoyon2" },
+    { url: "gallery/image3.png", title: "somoyon3" },
+    { url: "gallery/image4.png", title: "somoyon4" },
+    { url: "gallery/image5.png", title: "somoyon5" },
   ];
   const containerStyles = {
     width: "500px",
