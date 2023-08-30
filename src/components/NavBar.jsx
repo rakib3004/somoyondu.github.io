@@ -44,7 +44,13 @@ const NavBar = () => {
               window.scrollTo(0, 0);
             }}
           >
-            <NavBarLogo />
+            {toggle ? (
+              <div className="-mt-10">
+                <NavBarLogo />
+              </div>
+            ) : (
+              <NavBarLogo />
+            )}
           </Link>
           <ul className="list-none hidden sm:flex flex-row gap-10">
             {navLinks.map((link) => (
@@ -61,12 +67,16 @@ const NavBar = () => {
             ))}
           </ul>
 
-          <button
-            className="bg-[#1D0061] text-white px-6 lg:px-10 py-2 lg:py-4 rounded-md ml-20 lg:ml-0 lg:-left-16 "
-            onClick={openDonationModal}
-          >
-            দান করুন
-          </button>
+          {toggle ? (
+            <></>
+          ) : (
+            <button
+              className="bg-[#1D0061] text-white px-6 lg:px-10 py-2 lg:py-4 rounded-md ml-20 lg:ml-0 lg:-left-16 "
+              onClick={openDonationModal}
+            >
+              দান করুন
+            </button>
+          )}
 
           <div className="sm:hidden flex flex-1 justify-end items-center">
             <img
