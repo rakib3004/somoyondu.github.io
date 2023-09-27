@@ -7,6 +7,9 @@ const LandingPage = () => {
   return (
     <div>
         <TopSection/>
+        <div className='flex justify-center'>
+
+        </div>
         <MainSection/>
         <BottomSection/>
     </div>
