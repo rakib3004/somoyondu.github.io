@@ -3,8 +3,8 @@ import  { useState } from 'react';
 import ActiveExecutives from './ActiveExecutives';
 
 const AllExecutives = () => {
-    const [title, setTitle] = useState('ঊর্ধ্বতন নেতাবৃন্দ');
-    const [id, setId] = useState('top-leaders');
+    const [title, setTitle] = useState('ঊর্ধ্বতন সদস্য');
+    const [id, setId] = useState('top-executives');
 
     // const setAttributes = ({link}) =>{
     //     setTitle(link.title);
@@ -12,10 +12,7 @@ const AllExecutives = () => {
     // }
 
     const navLinks = [
-        {
-            id: "top-leaders",
-            title: "ঊর্ধ্বতন নেতাবৃন্দ",
-        },
+     
         {
             id: "top-executives",
             title: "ঊর্ধ্বতন সদস্য",
@@ -38,7 +35,7 @@ const AllExecutives = () => {
 
             <nav className={`w-full flex items-center top-0 bg-primary`}>
 
-                <div className='w-full flex justify-between items-center max-w-7xl ml-16 lg:ml-56'>
+                <div className='w-full flex justify-between items-center max-w-7xl ml-12 lg:ml-96'>
 
                     <ul className='list-none flex flex-row gap-2 lg:gap-8'>
                         {navLinks.map((link) => (

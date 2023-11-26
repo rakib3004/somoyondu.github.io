@@ -17,18 +17,15 @@ const ExecutiveComittee = () => {
        </h1>
       </div>
       <div className='my-6'>
+      <TopLeaders/>
       </div>
 
       {isDetails? (
-      
-      <div>
-              <TopLeaders/>
-
+                 
          <div className='text-center mt-4 lg:mt-16 '>
       <ViewMoreButton isDetails={isDetails} setIsDetails={setIsDetails} />
       </div>
-      </div>
-      
+  
       
       ):(
       

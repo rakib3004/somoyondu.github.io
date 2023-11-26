@@ -13,10 +13,7 @@ const FoundingMembers = () => {
         </div>
         <div className='my-6'>
         </div>
-  
        <FoundingLeaders/>
-    
-
       </div>
     )
 }
