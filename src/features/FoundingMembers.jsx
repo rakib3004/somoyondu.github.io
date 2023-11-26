@@ -1,5 +1,5 @@
 
-import TopLeaders from '../components/Executives/TopLeaders';
+import FoundingLeaders from '../components/Executives/FoundingLeaders';
 
 const FoundingMembers = () => {
     return (
@@ -14,7 +14,7 @@ const FoundingMembers = () => {
         <div className='my-6'>
         </div>
   
-       <TopLeaders/>
+       <FoundingLeaders/>
     
 
       </div>
