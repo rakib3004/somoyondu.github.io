@@ -1,4 +1,3 @@
-import React from "react";
 import ExecutiveCard from "../ExecutiveCard";
 import TopExecutivesService from '../../services/TopExecutivesService';
 

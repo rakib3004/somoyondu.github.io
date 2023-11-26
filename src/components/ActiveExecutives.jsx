@@ -1,4 +1,4 @@
-import React from "react";
+
 import ExecutiveMembers from "./Executives/ExecutiveMembers";
 import OfficialExecutives from "./Executives/OfficialExecutives";
 import OrganizingExecutives from "./Executives/OrganizingExecutives";

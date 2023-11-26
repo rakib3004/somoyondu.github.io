@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react';
 import DonationModal from '../features/DonationModal';
 
 const FooterTitle = () => {
