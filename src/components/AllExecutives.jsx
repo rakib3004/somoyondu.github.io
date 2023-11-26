@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 
 import ActiveExecutives from './ActiveExecutives';
 
@@ -6,10 +6,10 @@ const AllExecutives = () => {
     const [title, setTitle] = useState('ঊর্ধ্বতন নেতাবৃন্দ');
     const [id, setId] = useState('top-leaders');
 
-    const setAttributes = ({link}) =>{
-        setTitle(link.title);
-        setId(link.id);
-    }
+    // const setAttributes = ({link}) =>{
+    //     setTitle(link.title);
+    //     setId(link.id);
+    // }
 
     const navLinks = [
         {

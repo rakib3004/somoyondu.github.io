@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 
 import AllExecutives from '../components/AllExecutives';
 import ViewMoreButton from '../components/ViewMoreButton'; 
@@ -12,8 +12,8 @@ const ExecutiveComittee = () => {
       <div className='text-center'>
       <h1 className='text-2xl lg:text-3xl text-center font-bold pb-4 text-[#1D0061]'>কার্যনির্বাহী পরিষদ</h1>
       <h1 className='text-md'>
-        শিক্ষা, ঐক্য এবং ভ্রাতৃত্ব এই তিনটি স্লোগানকে সামনে রেখে আমাদের এই অগ্রযাত্রা। এই যাত্রাকে ত্বরান্বিত করতে ২০২৩-২৪ বছরের <br />
-       জন্য ৬১ সদস্য বিশিষ্ট পূর্ণাঙ্গ কার্যনির্বাহী পরিষদ প্রতিনিয়ত কাজ করে যাচ্ছে।
+      খিলক্ষেত, ভাটারা, বাড্ডা ও গুলশান-বনানী থানাধীন অঞ্চলে বসবাসরত ঢাকা বিশ্ববিদ্যালয়ের শিক্ষার্থীদেরকে নিয়ে  ২০২৩-২৪ বছরের <br />
+      জন্য ৬১ সদস্য বিশিষ্ট  প্রথম পূর্ণাঙ্গ কার্যনির্বাহী পরিষদ প্রতিনিয়ত কাজ করে যাচ্ছে।
        </h1>
       </div>
       <div className='my-6'>
