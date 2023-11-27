@@ -4,12 +4,12 @@ const FoundingMembersService = () => {
     return [
       {
         name: "মোঃ সুজন ভুঁইয়া",
-        designation: "আহ্বায়ক",
+        designation: "প্রতিষ্ঠাতা আহ্বায়ক",
         image: "members/sujon.jpg",
       },
       {
         name: "হাসিব আল মারুফ",
-        designation: "সদস্য সচিব",
+        designation: "প্রতিষ্ঠাতা সদস্য সচিব",
         image: "members/hasib.jpg",
       },
       {
