@@ -1,25 +1,25 @@
-const TopLeadersService = () => {
+const TopLeadersService = (year) => {
 
   const topLeadersIn2024 = [
     {
-      name: "এম এ এফ ফাহিম",
+      name: "মুন্সি রাব্বি আহমেদ (আকিব)",
       designation: "সভাপতি",
-      image: "members/fahim.png",
+      image: "members/akib.jpg",
     },
     {
-      name: "জাহিদ হাসান",
+      name: "ইমামুল হক",
       designation: "সিনিয়র সহ সভাপতি",
-      image: "members/zahid.jpeg",
+      image: "members/immemul.jpg",
     },
     {
-      name: "মোঃ আদবুল্লাহ আননুর",
+      name: "মাহমুদুল হাসান মার্জুক",
       designation: "সাধারণ সম্পাদক",
-      image: "members/annur.png",
+      image: "members/marzuk.png",
     },
     {
-      name: "এস. এম. মুসফিক হোসাইন ",
+      name: "মোঃ শিপলুর রহমান",
       designation: "সিনিয়র যুগ্ম-সাধারণ সম্পাদক",
-      image: "members/musfick.jpg",
+      image: "members/shiplur.jpg",
     },
   ];
 
@@ -40,7 +40,7 @@ const TopLeadersService = () => {
       image: "members/annur.png",
     },
     {
-      name: "এস. এম. মুসফিক হোসাইন ",
+      name: "এস. এম. মুসফিক হোসাইন",
       designation: "সিনিয়র যুগ্ম-সাধারণ সম্পাদক",
       image: "members/musfick.jpg",
     },
@@ -50,7 +50,7 @@ const TopLeadersService = () => {
     2024: topLeadersIn2024,
     2023: topLeadersIn2023,
   };
-  return topLeadersByYearMap[2023];
+  return topLeadersByYearMap[year];
 };
 
 export default TopLeadersService;

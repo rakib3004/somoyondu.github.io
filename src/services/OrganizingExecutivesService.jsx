@@ -1,24 +1,24 @@
-const OrganizingExecutivesService = () => {
+const OrganizingExecutivesService = (year) => {
   const organizingExecutivesIn2024 = [
     {
-      name: "মাহমুদুল হাসান মার্জুক",
+      name: "মোঃ নাজমুল",
       designation: "সাংগঠনিক সম্পাদক",
-      image: "members/marzuk.png",
+      image: "members/nazmul.jpg",
     },
     {
-      name: "মোঃ রাকিব তরফদার",
+      name: "হাসনাত নিদ্রা",
       designation: "সাংগঠনিক সম্পাদক",
-      image: "members/rakib.jpg",
+      image: "members/hasnat.JPGg",
     },
     {
-      name: "মুন্সি রাব্বি আহমেদ (আকিব)",
+      name: "মুশফিকুর রহমান মিজু",
       designation: "সাংগঠনিক সম্পাদক",
-      image: "members/akib.jpg",
+      image: "members/boy.jpg",
     },
     {
-      name: "শচীন মন্ডল",
+      name: "মোহাম্মাদ উল্লাহ্‌ তুষার",
       designation: "সাংগঠনিক সম্পাদক",
-      image: "members/sachin.jpg",
+      image: "members/boy.jpg",
     },
   ];
   
@@ -106,7 +106,7 @@ const OrganizingExecutivesService = () => {
     2023: organizingExecutivesIn2023,
   };
 
-  return organizingExecutivesByYearMap[2023];
+  return organizingExecutivesByYearMap[year];
 };
 
 export default OrganizingExecutivesService;

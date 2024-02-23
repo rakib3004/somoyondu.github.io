@@ -1,4 +1,4 @@
-const OfficialsService = () => {
+const OfficialsService = (year) => {
   const officialsIn2024 = [
     {
       name: "আমিনুল ইসলাম",
@@ -160,7 +160,7 @@ const OfficialsService = () => {
     2023: officialsIn2023,
   };
 
-  return officialsByYearMap[2023];
+  return officialsByYearMap[year];
 };
 
 export default OfficialsService;

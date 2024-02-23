@@ -1,44 +1,44 @@
-const TopExecutivesService = () => {
+const TopExecutivesService = (year) => {
   const topExecutivesIn2024 = [
     {
-      name: " মোঃ আশিকুর রহমান",
+      name: "শচীন মন্ডল",
       designation: "সহ সভাপতি",
-      image: "members/ashiqur.jpg",
+      image: "members/sachin.jpg",
     },
     {
-      name: "শিফা তাসনিম",
+      name: "মোঃ রাকিব তরফদার",
       designation: "সহ সভাপতি",
-      image: "members/shifa.png",
+      image: "members/rakib.jpg",
     },
     {
-      name: "মেহেদি হাসান",
+      name: "অদ্বিতীয়া মুকুল",
       designation: "সহ সভাপতি",
-      image: "members/boy.jpg",
+      image: "members/additiya.jpg",
     },
     {
-      name: "মেহেদি হাসান",
+      name: "প্রসেনজিৎ দেব পার্থ",
       designation: "সহ সভাপতি",
-      image: "members/boy.jpg",
+      image: "members/prosenjeet.jpg",
     },
     {
-      name: "আনিকা রয়",
+      name: "কাজী আদিল আহনাফ",
       designation: "যুগ্ম-সাধারণ সম্পাদক",
-      image: "members/anika.png",
+      image: "members/adil.jpg",
     },
     {
-      name: "মোঃ আশিক উল্লাহ্‌ ফাহিদ",
-      designation: "যুগ্ম-সাধারণ সম্পাদক",
-      image: "members/boy.jpg",
-    },
-    {
-      name: "সাদমান বিন শাফায়েত",
+      name: "মোঃ ইন্তেসার যুবায়ের",
       designation: "যুগ্ম-সাধারণ সম্পাদক",
       image: "members/boy.jpg",
     },
     {
-      name: "সাদমান বিন শাফায়েত",
+      name: "মোঃ তায়্যেবুর রহমান",
       designation: "যুগ্ম-সাধারণ সম্পাদক",
-      image: "members/boy.jpg",
+      image: "members/tayebur.jpg",
+    },
+    {
+      name: "কাওসার জাহান ইরিন",
+      designation: "যুগ্ম-সাধারণ সম্পাদক",
+      image: "members/erin.jpg",
     },
   ];
 
@@ -81,7 +81,7 @@ const TopExecutivesService = () => {
     2023: topExecutivesIn2023,
   };
 
-  return topExecutivesByYearMap[2023];
+  return topExecutivesByYearMap[year];
 };
 
 export default TopExecutivesService;
