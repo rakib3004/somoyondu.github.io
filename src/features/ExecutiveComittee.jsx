@@ -10,7 +10,7 @@ const ExecutiveComittee = () => {
   return (
     <div className='py-6 my-6' id="executives">
       <div className='text-center'>
-      <h1 className='text-2xl lg:text-3xl text-center font-bold pb-4 text-[#1D0061]'>কার্যনির্বাহী পরিষদ</h1>
+      <h1 className='text-2xl lg:text-3xl text-center font-bold pb-4 text-[#1D0061]'>কার্যনির্বাহী পরিষদ ২০২৩</h1>
       <h1 className='text-md'>
       খিলক্ষেত, ভাটারা, বাড্ডা ও গুলশান-বনানী থানাধীন অঞ্চলে বসবাসরত ঢাকা বিশ্ববিদ্যালয়ের শিক্ষার্থীদেরকে নিয়ে  ২০২৩-২৪ বছরের <br />
       জন্য ৬১ সদস্য বিশিষ্ট  প্রথম পূর্ণাঙ্গ কার্যনির্বাহী পরিষদ প্রতিনিয়ত কাজ করে যাচ্ছে।
@@ -20,13 +20,10 @@ const ExecutiveComittee = () => {
       <TopLeaders/>
       </div>
 
-      {isDetails? (
-                 
+      {isDetails? (                 
          <div className='text-center mt-4 lg:mt-16 '>
       <ViewMoreButton isDetails={isDetails} setIsDetails={setIsDetails} />
       </div>
-  
-      
       ):(
       
         <div>
@@ -37,12 +34,7 @@ const ExecutiveComittee = () => {
       </div>
         </div>
       
-      
       )}
-
-      {/* <div className='text-center mt-4 lg:mt-16 '>
-      <ViewMoreButton isDetails={isDetails} setIsDetails={setIsDetails} />
-      </div> */}
 
     </div>
   )
