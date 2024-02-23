@@ -2,7 +2,7 @@ import React from 'react'
 
 import Advisors from '../components/Advisors';
 
-const AdvisoryComittee = () => {
+const AdvisoryCommittee = () => {
   return (
     <div className='py-2 my-1 lg:py-6 lg:my-6' id="advisors">
       <div className='text-center'>
@@ -20,4 +20,4 @@ const AdvisoryComittee = () => {
   )
 }
 
-export default AdvisoryComittee
+export default AdvisoryCommittee

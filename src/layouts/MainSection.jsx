@@ -1,15 +1,15 @@
 import Gallery from '../features/Gallery'
-import ExecutiveComittee from '../features/ExecutiveComittee'
-import AdvisoryComittee from '../features/AdvisoryComittee'
+import AdvisoryCommittee from '../features/AdvisoryCommittee'
 import FoundingMembers from '../features/FoundingMembers'
+import ExecutiveCommitteeSection from './ExecutiveCommitteeSection'
 
 const MainSection = () => {
   return (
     <div>
     <Gallery/>
     <FoundingMembers/>
-    <ExecutiveComittee/>
-    <AdvisoryComittee/>
+    <ExecutiveCommitteeSection/>
+    <AdvisoryCommittee/>
     </div>
   )
 }
