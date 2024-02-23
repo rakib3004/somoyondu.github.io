@@ -8,7 +8,7 @@ const OrganizingExecutivesService = (year) => {
     {
       name: "হাসনাত নিদ্রা",
       designation: "সাংগঠনিক সম্পাদক",
-      image: "members/hasnat.JPGg",
+      image: "members/hasnat.JPG",
     },
     {
       name: "মুশফিকুর রহমান মিজু",
