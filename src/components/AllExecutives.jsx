@@ -6,11 +6,6 @@ const AllExecutives = () => {
     const [title, setTitle] = useState('ঊর্ধ্বতন সদস্য');
     const [id, setId] = useState('top-executives');
 
-    // const setAttributes = ({link}) =>{
-    //     setTitle(link.title);
-    //     setId(link.id);
-    // }
-
     const navLinks = [
      
         {
