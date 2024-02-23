@@ -1,6 +1,28 @@
-
 const OrganizingExecutivesService = () => {
-  return  [
+  const organizingExecutivesIn2024 = [
+    {
+      name: "মাহমুদুল হাসান মার্জুক",
+      designation: "সাংগঠনিক সম্পাদক",
+      image: "members/marzuk.png",
+    },
+    {
+      name: "মোঃ রাকিব তরফদার",
+      designation: "সাংগঠনিক সম্পাদক",
+      image: "members/rakib.jpg",
+    },
+    {
+      name: "মুন্সি রাব্বি আহমেদ (আকিব)",
+      designation: "সাংগঠনিক সম্পাদক",
+      image: "members/akib.jpg",
+    },
+    {
+      name: "শচীন মন্ডল",
+      designation: "সাংগঠনিক সম্পাদক",
+      image: "members/sachin.jpg",
+    },
+  ];
+  
+  const organizingExecutivesIn2023 = [
     {
       name: "মাহমুদুল হাসান মার্জুক",
       designation: "সাংগঠনিক সম্পাদক",
@@ -76,10 +98,15 @@ const OrganizingExecutivesService = () => {
       designation: "সাংগঠনিক সম্পাদক",
       image: "members/immemul.jpg",
     },
-    
   ];
-  
 
-}
 
-export default OrganizingExecutivesService
+  const organizingExecutivesByYearMap = {
+    2024: organizingExecutivesIn2024,
+    2023: organizingExecutivesIn2023,
+  };
+
+  return organizingExecutivesByYearMap[2023];
+};
+
+export default OrganizingExecutivesService;

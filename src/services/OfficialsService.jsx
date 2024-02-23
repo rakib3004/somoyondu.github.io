@@ -1,7 +1,23 @@
-
-
 const OfficialsService = () => {
-  return [
+  const officialsIn2024 = [
+    {
+      name: "আমিনুল ইসলাম",
+      designation: "প্রচার সম্পাদক",
+      image: "members/aminul.jpg",
+    },
+    {
+      name: "মামশুকা ফারহাত",
+      designation: "কোষাধ্যক্ষ",
+      image: "members/mumsuka.jpg",
+    },
+    {
+      name: "মোঃ আসিফ হোসেন",
+      designation: "দপ্তর সম্পাদক",
+      image: "members/boy.jpg",
+    },
+  ];
+  
+  const officialsIn2023 = [
     {
       name: "কাজী আদিল আহনাফ",
       designation: "কোষাধ্যক্ষ",
@@ -138,6 +154,13 @@ const OfficialsService = () => {
       image: "members/boy.jpg",
     },
   ];
+
+  const officialsByYearMap = {
+    2024: officialsIn2024,
+    2023: officialsIn2023,
+  };
+
+  return officialsByYearMap[2023];
 };
 
 export default OfficialsService;
