@@ -11,15 +11,35 @@ const TopExecutivesService = (year) => {
       image: "members/rakib.jpg",
     },
     {
-      name: "অদ্বিতীয়া মুকুল",
+      name: "জুয়েল সরকার",
       designation: "সহ সভাপতি",
-      image: "members/additiya.jpg",
+      image: "members/boy.jpg",
     },
     {
       name: "প্রসেনজিৎ দেব পার্থ",
       designation: "সহ সভাপতি",
       image: "members/prosenjeet.jpg",
-    },
+    }, 
+    {
+      name: "অদ্বিতীয়া মুকুল",
+      designation: "সহ সভাপতি",
+      image: "members/additiya.jpg",
+    }, 
+    {
+      name: "মোঃ নাঈম আহমেদ",
+      designation: "সহ সভাপতি",
+      image: "members/boy.jpg",
+    }, 
+    {
+      name: "মোঃ হুমায়ুন রশিদ খান",
+      designation: "সহ সভাপতি",
+      image: "members/boy.jpg",
+    }, 
+    {
+      name: "তামান্না আক্তার",
+      designation: "সহ সভাপতি",
+      image: "members/girl.jpg",
+    }, 
     {
       name: "কাজী আদিল আহনাফ",
       designation: "যুগ্ম-সাধারণ সম্পাদক",
@@ -31,14 +51,29 @@ const TopExecutivesService = (year) => {
       image: "members/boy.jpg",
     },
     {
-      name: "মোঃ তায়্যেবুর রহমান",
+      name: "মাহিদ মুস্তাফিজ",
       designation: "যুগ্ম-সাধারণ সম্পাদক",
-      image: "members/tayebur.jpg",
+      image: "members/boy.jpg",
     },
     {
       name: "কাওসার জাহান ইরিন",
       designation: "যুগ্ম-সাধারণ সম্পাদক",
       image: "members/erin.jpg",
+    },
+    {
+      name: "মোঃ তায়্যেবুর রহমান",
+      designation: "যুগ্ম-সাধারণ সম্পাদক",
+      image: "members/tayebur.jpg",
+    },
+    {
+      name: "দেবপ্রিয় ভট্টাচার্য দিপু",
+      designation: "যুগ্ম-সাধারণ সম্পাদক",
+      image: "members/boy.jpg",
+    }, 
+    {
+      name: "সাবের হোসেন",
+      designation: "যুগ্ম-সাধারণ সম্পাদক",
+      image: "members/boy.jpg",
     },
   ];
 

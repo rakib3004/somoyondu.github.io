@@ -5,18 +5,38 @@ const OrganizingExecutivesService = (year) => {
       designation: "সাংগঠনিক সম্পাদক",
       image: "members/nazmul.jpg",
     },
+  {
+      name: "আমিনুল ইসলাম",
+      designation: "সাংগঠনিক সম্পাদক",
+      image: "members/boy.jpg",
+    },
     {
       name: "হাসনাত নিদ্রা",
       designation: "সাংগঠনিক সম্পাদক",
       image: "members/hasnat.JPG",
+    }, 
+    {
+      name: "মোহাম্মাদ উল্লাহ্‌ তুষার",
+      designation: "সাংগঠনিক সম্পাদক",
+      image: "members/boy.jpg",
     },
     {
       name: "মুশফিকুর রহমান মিজু",
       designation: "সাংগঠনিক সম্পাদক",
       image: "members/boy.jpg",
     },
-    {
-      name: "মোহাম্মাদ উল্লাহ্‌ তুষার",
+   {
+      name: "মাসুম বিল্লাহ",
+      designation: "সাংগঠনিক সম্পাদক",
+      image: "members/boy.jpg",
+    }, 
+   {
+      name: "নাফিয়া ইসলাম মালিহা",
+      designation: "সাংগঠনিক সম্পাদক",
+      image: "members/girl.jpg",
+    }, 
+   {
+      name: "সাইদুল ইসলাম",
       designation: "সাংগঠনিক সম্পাদক",
       image: "members/boy.jpg",
     },

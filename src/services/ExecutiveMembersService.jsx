@@ -1,8 +1,57 @@
 const ExecutiveMembersService = (year) => {
   const executiveMembersIn2024 = [
-   
+    {
+      name: "মোঃ আব্দুল্লাহ মাহমুদ মিরার",
+      designation: "সদস্য, গ্রাফিক্স ও প্রোগ্রাম গ্রুপ",
+      image: "members/boy.jpg",
+    },
+    {
+      name: "হামীম উর রহমান তানিম",
+      designation: "সদস্য, গ্রাফিক্স ও প্রোগ্রাম গ্রুপ",
+      image: "members/boy.jpg",
+    },
+    {
+      name: "মোহাম্মাদ শাহজালাল বারি",
+      designation: "সদস্য, কন্টেন্ট গ্রুপ",
+      image: "members/boy.jpg",
+    },
+    {
+      name: "মোঃ রিহাদুল ইসলাম রিহাদ",
+      designation: "সদস্য, কন্টেন্ট গ্রুপ",
+      image: "members/boy.jpg",
+    },
+    {
+      name: "জুহাই-উর- আহমেদ সৌভিক ",
+      designation: "সদস্য, কন্টেন্ট গ্রুপ",
+      image: "members/boy.jpg",
+    },
+    {
+      name: "আহমেদ সৌমিক হাসান",
+      designation: "সদস্য, অতিথি ব্যবস্থাপনা গ্রুপ",
+      image: "members/boy.jpg",
+    },
+    {
+      name: "জুবায়ের আহনাফ তালহা",
+      designation: "সদস্য, অতিথি ব্যবস্থাপনা গ্রুপ",
+      image: "members/boy.jpg",
+    },
+    {
+      name: "তাবাসসুম আফসা চোহা",
+      designation: "সদস্য, অতিথি ব্যবস্থাপনা গ্রুপ",
+      image: "members/girl.jpg",
+    },
+    {
+      name: "দেবজ্যোতি দত্ত আঁচল",
+      designation: "সদস্য, অতিথি ব্যবস্থাপনা গ্রুপ",
+      image: "members/girl.jpg",
+    },
+    {
+      name: "আফিফ হাসান",
+      designation: "সদস্য, অতিথি ব্যবস্থাপনা গ্রুপ",
+      image: "members/boy.jpg",
+    },
   ];
-  
+
   const executiveMembersIn2023 = [
     {
       name: "মো: মাসুম বিল্লাহ ",

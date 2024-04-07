@@ -1,11 +1,6 @@
 const OfficialsService = (year) => {
   const officialsIn2024 = [
     {
-      name: "আমিনুল ইসলাম",
-      designation: "প্রচার সম্পাদক",
-      image: "members/aminul.jpg",
-    },
-    {
       name: "মামশুকা ফারহাত",
       designation: "কোষাধ্যক্ষ",
       image: "members/mumsuka.jpg",
@@ -15,8 +10,88 @@ const OfficialsService = (year) => {
       designation: "দপ্তর সম্পাদক",
       image: "members/boy.jpg",
     },
+    {
+      name: "জুবায়ের মুন্সি",
+      designation: "প্রচার সম্পাদক",
+      image: "members/boy.jpg",
+    },
+    {
+      name: "মোহাম্মাদ আল আমিন",
+      designation: "পরিকল্পনা সম্পাদক",
+      image: "members/boy.jpg",
+    },
+    {
+      name: "আব্দুল্লাহ হিল কাফি",
+      designation: "সমাজকল্যাণ সম্পাদক",
+      image: "members/boy.jpg",
+    },
+    {
+      name: "মাঈনুল ইসলাম",
+      designation: "উপ-সমাজকল্যাণ সম্পাদক",
+      image: "members/boy.jpg",
+    },
+    {
+      name: "ফারহান নোশিন",
+      designation: "তথ্য ও প্রযুক্তি সম্পাদক",
+      image: "members/boy.jpg",
+    },
+    {
+      name: "রাশেদুল ইসলাম",
+      designation: "উপ-তথ্য ও প্রযুক্তি সম্পাদক",
+      image: "members/boy.jpg",
+    },
+    {
+      name: "উম্মে সালমা আলফী",
+      designation: "আইন বিষয়ক সম্পাদক",
+      image: "members/girl.jpg",
+    },
+    {
+      name: "আমির শিফাত",
+      designation: "উপ-আইন বিষয়ক সম্পাদক",
+      image: "members/boy.jpg",
+    },
+    {
+      name: "পূজা দে",
+      designation: "ছাত্রী বিষয়ক সম্পাদক",
+      image: "members/girl.jpg",
+    },
+    {
+      name: "পৃথা সান্যাল",
+      designation: "সংস্কৃতি বিষয়ক সম্পাদক",
+      image: "members/boy.jpg",
+    },
+    {
+      name: "আফরোজা তারিন মারজানা",
+      designation: "উপ-সংস্কৃতি বিষয়ক সম্পাদক",
+      image: "members/girl.jpg",
+    },
+    {
+      name: "আসফিয়া ইসলাম সিমলা",
+      designation: "স্বাস্থ্য সম্পাদক",
+      image: "members/girl.jpg",
+    },
+    {
+      name: "আওফ আনছারী",
+      designation: "উপ-স্বাস্থ্য সম্পাদক",
+      image: "members/boy.jpg",
+    },
+    {
+      name: "সৈয়দ সাদমান ইসলাম",
+      designation: "দুর্যোগ ব্যবস্থাপনা সম্পাদক",
+      image: "members/boy.jpg",
+    },
+    {
+      name: "মাহমুদুল হাসান আবির",
+      designation: "ক্রীড়া সম্পাদক",
+      image: "members/boy.jpg",
+    },
+    {
+      name: "সিদ্ধার্থ বণিক",
+      designation: "উপ-ক্রীড়া সম্পাদক",
+      image: "members/boy.jpg",
+    },
   ];
-  
+
   const officialsIn2023 = [
     {
       name: "কাজী আদিল আহনাফ",
