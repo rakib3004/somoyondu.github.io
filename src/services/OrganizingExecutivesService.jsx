@@ -6,7 +6,7 @@ const OrganizingExecutivesService = (year) => {
       image: "members/nazmul.jpg",
     },
   {
-      name: "আমিনুল ইসলাম",
+      name: "মো. আমিনুল ইসলাম",
       designation: "সাংগঠনিক সম্পাদক",
       image: "members/boy.jpg",
     },
@@ -16,7 +16,7 @@ const OrganizingExecutivesService = (year) => {
       image: "members/hasnat.JPG",
     }, 
     {
-      name: "মোহাম্মাদ উল্লাহ্‌ তুষার",
+      name: "মোহাম্মদ উল্লাহ তুষার",
       designation: "সাংগঠনিক সম্পাদক",
       image: "members/boy.jpg",
     },
@@ -26,7 +26,7 @@ const OrganizingExecutivesService = (year) => {
       image: "members/boy.jpg",
     },
    {
-      name: "মাসুম বিল্লাহ",
+      name: "মো: মাসুম বিল্লাহ",
       designation: "সাংগঠনিক সম্পাদক",
       image: "members/boy.jpg",
     }, 

@@ -21,7 +21,7 @@ const ExecutiveMembersService = (year) => {
       image: "members/boy.jpg",
     },
     {
-      name: "জুহাই-উর- আহমেদ সৌভিক ",
+      name: "জুহাই-উর- আহমেদ সৌভিক",
       designation: "সদস্য, কন্টেন্ট গ্রুপ",
       image: "members/boy.jpg",
     },

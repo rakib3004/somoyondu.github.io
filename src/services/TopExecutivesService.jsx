@@ -26,7 +26,7 @@ const TopExecutivesService = (year) => {
       image: "members/additiya.jpg",
     }, 
     {
-      name: "মোঃ নাঈম আহমেদ",
+      name: "নাঈম আহমেদ",
       designation: "সহ সভাপতি",
       image: "members/boy.jpg",
     }, 
@@ -46,7 +46,7 @@ const TopExecutivesService = (year) => {
       image: "members/adil.jpg",
     },
     {
-      name: "মোঃ ইন্তেসার যুবায়ের",
+      name: "মো: ইনতেসার জোবায়ের",
       designation: "যুগ্ম-সাধারণ সম্পাদক",
       image: "members/boy.jpg",
     },

@@ -6,7 +6,7 @@ const OfficialsService = (year) => {
       image: "members/mumsuka.jpg",
     },
     {
-      name: "মোঃ আসিফ হোসেন",
+      name: "মো: আসিফ হোসেন",
       designation: "দপ্তর সম্পাদক",
       image: "members/boy.jpg",
     },
@@ -16,7 +16,7 @@ const OfficialsService = (year) => {
       image: "members/boy.jpg",
     },
     {
-      name: "মোহাম্মাদ আল আমিন",
+      name: "আল - আমিন",
       designation: "পরিকল্পনা সম্পাদক",
       image: "members/boy.jpg",
     },
@@ -46,7 +46,7 @@ const OfficialsService = (year) => {
       image: "members/girl.jpg",
     },
     {
-      name: "আমির শিফাত",
+      name: "আমির সিফাত",
       designation: "উপ-আইন বিষয়ক সম্পাদক",
       image: "members/boy.jpg",
     },
