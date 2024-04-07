@@ -4,22 +4,22 @@ const TopLeadersService = (year) => {
     {
       name: "মুন্সি রাব্বি আহমেদ (আকিব)",
       designation: "সভাপতি",
-      image: "members/akib.jpg",
+      image: "members/2024/akib.jpg",
     },
     {
       name: "ইমামুল হক",
       designation: "সিনিয়র সহ সভাপতি",
-      image: "members/immemul.jpg",
+      image: "members/2024/immemul.jpg",
     },
     {
       name: "মাহমুদুল হাসান মার্জুক",
       designation: "সাধারণ সম্পাদক",
-      image: "members/marzuk.png",
+      image: "members/2024/marzuk.png",
     },
     {
       name: "মোঃ শিপলুর রহমান",
       designation: "সিনিয়র যুগ্ম-সাধারণ সম্পাদক",
-      image: "members/shiplur.jpg",
+      image: "members/2024/shiplur.jpg",
     },
   ];
 
@@ -27,22 +27,22 @@ const TopLeadersService = (year) => {
     {
       name: "এম এ এফ ফাহিম",
       designation: "সভাপতি",
-      image: "members/fahim.png",
+      image: "members/2023/fahim.png",
     },
     {
       name: "জাহিদ হাসান",
       designation: "সিনিয়র সহ সভাপতি",
-      image: "members/zahid.jpeg",
+      image: "members/2023/zahid.jpeg",
     },
     {
       name: "মোঃ আদবুল্লাহ আননুর",
       designation: "সাধারণ সম্পাদক",
-      image: "members/annur.png",
+      image: "members/2023/annur.png",
     },
     {
       name: "এস. এম. মুসফিক হোসাইন",
       designation: "সিনিয়র যুগ্ম-সাধারণ সম্পাদক",
-      image: "members/musfick.jpg",
+      image: "members/2023/musfick.jpg",
     },
   ];
 
