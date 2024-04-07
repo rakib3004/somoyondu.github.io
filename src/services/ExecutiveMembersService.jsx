@@ -3,12 +3,12 @@ const ExecutiveMembersService = (year) => {
     {
       name: "মোঃ আব্দুল্লাহ মাহমুদ মিরার",
       designation: "সদস্য, গ্রাফিক্স ও প্রোগ্রাম গ্রুপ",
-      image: "members/2024/boy.jpg",
+      image: "members/2024/mirar.jpg",
     },
     {
       name: "হামীম উর রহমান তানিম",
       designation: "সদস্য, গ্রাফিক্স ও প্রোগ্রাম গ্রুপ",
-      image: "members/2024/boy.jpg",
+      image: "members/2024/tanim.jpg",
     },
     {
       name: "মোহাম্মাদ শাহজালাল বারি",
@@ -23,12 +23,12 @@ const ExecutiveMembersService = (year) => {
     {
       name: "জুহাই-উর- আহমেদ সৌভিক",
       designation: "সদস্য, কন্টেন্ট গ্রুপ",
-      image: "members/2024/boy.jpg",
+      image: "members/2024/juhai.jpg",
     },
     {
       name: "আহমেদ সৌমিক হাসান",
       designation: "সদস্য, অতিথি ব্যবস্থাপনা গ্রুপ",
-      image: "members/2024/boy.jpg",
+      image: "members/2024/soumic.jpg",
     },
     {
       name: "জুবায়ের আহনাফ তালহা",
@@ -43,7 +43,7 @@ const ExecutiveMembersService = (year) => {
     {
       name: "দেবজ্যোতি দত্ত আঁচল",
       designation: "সদস্য, অতিথি ব্যবস্থাপনা গ্রুপ",
-      image: "members/2024/girl.jpg",
+      image: "members/2024/auchal.jpg",
     },
     {
       name: "আফিফ হাসান",

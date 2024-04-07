@@ -13,7 +13,7 @@ const TopExecutivesService = (year) => {
     {
       name: "জুয়েল সরকার",
       designation: "সহ সভাপতি",
-      image: "members/2024/boy.jpg",
+      image: "members/2024/jewel.jpg",
     },
     {
       name: "প্রসেনজিৎ দেব পার্থ",
@@ -28,7 +28,7 @@ const TopExecutivesService = (year) => {
     {
       name: "নাঈম আহমেদ",
       designation: "সহ সভাপতি",
-      image: "members/2024/boy.jpg",
+      image: "members/2024/naeem.jpg",
     }, 
     {
       name: "মোঃ হুমায়ুন রশিদ খান",
@@ -48,7 +48,7 @@ const TopExecutivesService = (year) => {
     {
       name: "মো: ইনতেসার জোবায়ের",
       designation: "যুগ্ম-সাধারণ সম্পাদক",
-      image: "members/2024/boy.jpg",
+      image: "members/2024/intesar.jpg",
     },
     {
       name: "মাহিদ মুস্তাফিজ",
@@ -68,12 +68,12 @@ const TopExecutivesService = (year) => {
     {
       name: "দেবপ্রিয় ভট্টাচার্য দিপু",
       designation: "যুগ্ম-সাধারণ সম্পাদক",
-      image: "members/2024/boy.jpg",
+      image: "members/2024/dipu.jpg",
     }, 
     {
       name: "সাবের হোসেন",
       designation: "যুগ্ম-সাধারণ সম্পাদক",
-      image: "members/2024/boy.jpg",
+      image: "members/2024/saber.jpg",
     },
   ];
 

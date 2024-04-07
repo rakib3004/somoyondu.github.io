@@ -18,7 +18,7 @@ const OrganizingExecutivesService = (year) => {
     {
       name: "মোহাম্মদ উল্লাহ তুষার",
       designation: "সাংগঠনিক সম্পাদক",
-      image: "members/2024/boy.jpg",
+      image: "members/2024/tusher.jpeg",
     },
     {
       name: "মুশফিকুর রহমান মিজু",
@@ -28,7 +28,7 @@ const OrganizingExecutivesService = (year) => {
    {
       name: "মো: মাসুম বিল্লাহ",
       designation: "সাংগঠনিক সম্পাদক",
-      image: "members/2024/boy.jpg",
+      image: "members/2024/masum.jpg",
     }, 
    {
       name: "নাফিয়া ইসলাম মালিহা",
@@ -38,7 +38,7 @@ const OrganizingExecutivesService = (year) => {
    {
       name: "সাইদুল ইসলাম",
       designation: "সাংগঠনিক সম্পাদক",
-      image: "members/2024/boy.jpg",
+      image: "members/2024/saidul.jpg",
     },
   ];
   

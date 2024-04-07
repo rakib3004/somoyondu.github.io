@@ -8,17 +8,17 @@ const OfficialsService = (year) => {
     {
       name: "মো: আসিফ হোসেন",
       designation: "দপ্তর সম্পাদক",
-      image: "members/2024/boy.jpg",
+      image: "members/2024/asif.jpg",
     },
     {
       name: "জুবায়ের মুন্সি",
       designation: "প্রচার সম্পাদক",
-      image: "members/2024/boy.jpg",
+      image: "members/2024/jubayer.jpg",
     },
     {
       name: "আল - আমিন",
       designation: "পরিকল্পনা সম্পাদক",
-      image: "members/2024/boy.jpg",
+      image: "members/2024/alamin.jpg",
     },
     {
       name: "আব্দুল্লাহ হিল কাফি",
@@ -33,7 +33,7 @@ const OfficialsService = (year) => {
     {
       name: "ফারহান নোশিন",
       designation: "তথ্য ও প্রযুক্তি সম্পাদক",
-      image: "members/2024/boy.jpg",
+      image: "members/2024/farhan.jpeg",
     },
     {
       name: "রাশেদুল ইসলাম",
@@ -43,12 +43,12 @@ const OfficialsService = (year) => {
     {
       name: "উম্মে সালমা আলফী",
       designation: "আইন বিষয়ক সম্পাদক",
-      image: "members/2024/girl.jpg",
+      image: "members/2024/alfi.jpg",
     },
     {
       name: "আমির সিফাত",
       designation: "উপ-আইন বিষয়ক সম্পাদক",
-      image: "members/2024/boy.jpg",
+      image: "members/2024/amir.JPG",
     },
     {
       name: "পূজা দে",
@@ -58,7 +58,7 @@ const OfficialsService = (year) => {
     {
       name: "পৃথা সান্যাল",
       designation: "সংস্কৃতি বিষয়ক সম্পাদক",
-      image: "members/2024/boy.jpg",
+      image: "members/2024/pritha.jpg",
     },
     {
       name: "আফরোজা তারিন মারজানা",
@@ -68,17 +68,17 @@ const OfficialsService = (year) => {
     {
       name: "আসফিয়া ইসলাম সিমলা",
       designation: "স্বাস্থ্য সম্পাদক",
-      image: "members/2024/girl.jpg",
+      image: "members/2024/ashfia.jpg",
     },
     {
       name: "আওফ আনছারী",
       designation: "উপ-স্বাস্থ্য সম্পাদক",
-      image: "members/2024/boy.jpg",
+      image: "members/2024/awof.jpg",
     },
     {
       name: "সৈয়দ সাদমান ইসলাম",
       designation: "দুর্যোগ ব্যবস্থাপনা সম্পাদক",
-      image: "members/2024/boy.jpg",
+      image: "members/2024/sadman.jpg",
     },
     {
       name: "মাহমুদুল হাসান আবির",
@@ -88,7 +88,7 @@ const OfficialsService = (year) => {
     {
       name: "সিদ্ধার্থ বণিক",
       designation: "উপ-ক্রীড়া সম্পাদক",
-      image: "members/2024/boy.jpg",
+      image: "members/2024/shiddhurtha.jpg",
     },
   ];
 

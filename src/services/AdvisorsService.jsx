@@ -30,6 +30,11 @@ const AdvisorsService = () => {
       designation: "সাবেক সভাপতি, ফাল্গুনী বাস রুট",
       image: "advisors/kamrul-hasan.png",
     },
+    {
+      name: "অনুপ কুমার দত্ত",
+      designation: "বিসিএস নন ক্যাডার (শিক্ষা)",
+      image: "advisors/anup-kumar.jpeg",
+    },
   ];
 };
 
