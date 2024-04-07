@@ -2,7 +2,7 @@ const AdvisorsService = () => {
   return [
     {
       name: "অধ্যাপক ড. মোঃ আখতারুজ্জামান",
-      designation: "মাননীয় উপাচার্য, ঢাকা বিশ্ববিদ্যালয়",
+      designation: "সাবেক উপাচার্য, ঢাকা বিশ্ববিদ্যালয়",
       image: "advisors/akhtaruzzaman.png",
     },
     {
