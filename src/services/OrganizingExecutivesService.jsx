@@ -23,7 +23,7 @@ const OrganizingExecutivesService = (year) => {
     {
       name: "মুশফিকুর রহমান মিজু",
       designation: "সাংগঠনিক সম্পাদক",
-      image: "members/2024/boy.jpg",
+      image: "members/2024/mizu.jpg",
     },
    {
       name: "মো: মাসুম বিল্লাহ",
