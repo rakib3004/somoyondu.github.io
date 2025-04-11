@@ -1,5 +1,31 @@
 const TopLeadersService = (year) => {
-
+  const topLeadersIn2025 = [
+    {
+      name: "মোঃ তায়্যেবুর রহমান",
+      designation: "সভাপতি",
+      image: "members/2024/tayebur.jpg",
+    },
+    {
+      name: "মুশফিকুর রহমান মিজু",
+      designation: "সিনিয়র সহ সভাপতি",
+      image: "members/2024/mizu.jpg",
+    },
+    {
+      name: "মামশুকা ফারহাত",
+      designation: "সাধারণ সম্পাদক",
+      image: "members/2024/mumsuka.jpg",
+    },
+    {
+      name: "মোঃ নাজমুল",
+      designation: "সিনিয়র যুগ্ম-সাধারণ সম্পাদক",
+      image: "members/2024/nazmul.jpg",
+    },
+    {
+      name: "মো: মাসুম বিল্লাহ",
+      designation: "সিনিয়র যুগ্ম-সাধারণ সম্পাদক",
+      image: "members/2024/masum.jpg",
+    },
+  ];
   const topLeadersIn2024 = [
     {
       name: "মুন্সি রাব্বি আহমেদ (আকিব)",
@@ -47,6 +73,7 @@ const TopLeadersService = (year) => {
   ];
 
   const topLeadersByYearMap = {
+    2025: topLeadersIn2025,
     2024: topLeadersIn2024,
     2023: topLeadersIn2023,
   };

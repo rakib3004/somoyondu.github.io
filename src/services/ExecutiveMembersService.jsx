@@ -1,4 +1,8 @@
 const ExecutiveMembersService = (year) => {
+  const executiveMembersIn2025 = [
+    
+  ];
+
   const executiveMembersIn2024 = [
     {
       name: "মোঃ আব্দুল্লাহ মাহমুদ মিরার",
@@ -119,6 +123,7 @@ const ExecutiveMembersService = (year) => {
   ];
 
   const executiveMembersByYearMap = {
+    2025: executiveMembersIn2025,
     2024: executiveMembersIn2024,
     2023: executiveMembersIn2023,
   };

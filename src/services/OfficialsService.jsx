@@ -1,4 +1,22 @@
 const OfficialsService = (year) => {
+  const officialsIn2025 = [
+
+    {
+      name: "মাহমুদুল হাসান আবির",
+      designation: "প্রচার সম্পাদক",
+      image: "members/2024/boy.jpg",
+    },
+    {
+      name: "আওফ আনছারী",
+      designation: "ক্রীড়া সম্পাদক",
+      image: "members/2024/awof.jpg",
+    },
+    {
+      name: "মোহাম্মাদ শাহজালাল বারি",
+      designation: "কোষাধ্যক্ষ",
+      image: "members/2024/boy.jpg",
+    },
+  ];
   const officialsIn2024 = [
     {
       name: "মামশুকা ফারহাত",
@@ -231,6 +249,7 @@ const OfficialsService = (year) => {
   ];
 
   const officialsByYearMap = {
+    2025: officialsIn2025,
     2024: officialsIn2024,
     2023: officialsIn2023,
   };
