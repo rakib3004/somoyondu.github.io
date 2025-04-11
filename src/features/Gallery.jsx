@@ -11,7 +11,7 @@ const Gallery = () => {
   ];
   const containerStyles = {
     width: "500px",
-    height: "280px",
+    height: "380px",
     margin: "0 auto",
   };
 
@@ -21,10 +21,14 @@ const Gallery = () => {
         <h1 className="text-2xl lg:text-4xl text-center font-bold pb-4 pt-6 text-[#1D0061]">
           গ্যালারি
         </h1>
-        <h1 className="text-base">একনজরে সময়নের কার্যক্রম</h1>
+        <h1 className="text-xl mb-6">একনজরে সময়নের কার্যক্রম</h1>
 
         <div style={containerStyles}>
-        <ImageSlider slides={slides} />
+        <ImageSlider>
+        {slides.map((image, index) => {
+          return <img key={index} src={image.url} alt={image.title} />;
+        })}
+        </ImageSlider>
       </div>        
      
       </div>

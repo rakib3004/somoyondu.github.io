@@ -1,65 +1,113 @@
-import { useState } from "react";
-const slideStyles = {
-  width: "100%",
-  height: "100%",
-  borderRadius: "10px",
-  backgroundSize: "cover",
-  backgroundPosition: "center",
-};
-const rightArrowStyles = "absolute top-1/2 transform -translate-y-1/2 right-3 lg:right-1 text-white text-[18px] lg:text-[36px] z-10 cursor-pointer";
+import React, { useState, useEffect } from "react";
 
-const leftArrowStyles = "absolute top-1/2 transform -translate-y-1/2 left-3 lg:left-1 text-white text-[18px] lg:text-[36px] z-10 cursor-pointer";
+import "./ImageSlider.css";
 
-const sliderStyles = "relative h-full";
+const ImageSlider = ({ children }) => {
+  const [activeIndex, setActiveIndex] = useState(0);
+  const [slideDone, setSlideDone] = useState(true);
+  const [timeID, setTimeID] = useState(null);
 
-const dotsContainerStyles = "flex justify-center text-32100F";
+  useEffect(() => {
+    if (slideDone) {
+      setSlideDone(false);
+      setTimeID(
+        setTimeout(() => {
+          slideNext();
+          setSlideDone(true);
+        }, 5000)
+      );
+    }
+  }, [slideDone]);
 
-const dotStyle = "mx-3 cursor-pointer text-20";
-
-const ImageSlider = ({ slides }) => {
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const goToPrevious = () => {
-    const isFirstSlide = currentIndex === 0;
-    const newIndex = isFirstSlide ? slides.length - 1 : currentIndex - 1;
-    setCurrentIndex(newIndex);
+  const slideNext = () => {
+    setActiveIndex((val) => {
+      if (val >= children.length - 1) {
+        return 0;
+      } else {
+        return val + 1;
+      }
+    });
   };
-  const goToNext = () => {
-    const isLastSlide = currentIndex === slides.length - 1;
-    const newIndex = isLastSlide ? 0 : currentIndex + 1;
-    setCurrentIndex(newIndex);
+
+  const slidePrev = () => {
+    setActiveIndex((val) => {
+      if (val <= 0) {
+        return children.length - 1;
+      } else {
+        return val - 1;
+      }
+    });
   };
-  const goToSlide = (slideIndex) => {
-    setCurrentIndex(slideIndex);
+
+  const AutoPlayStop = () => {
+    if (timeID > 0) {
+      clearTimeout(timeID);
+      setSlideDone(false);
+    }
   };
-  const slideStylesWidthBackground = {
-    ...slideStyles,
-    backgroundImage: `url(${slides[currentIndex].url})`,
+
+  const AutoPlayStart = () => {
+    if (!slideDone) {
+      setSlideDone(true);
+    }
   };
 
   return (
-    <div className={`${sliderStyles}`}>
-      <div>
-        <div onClick={goToPrevious} className={`${leftArrowStyles}`}>
-          ❰
-        </div>
-        <div onClick={goToNext} className={`${rightArrowStyles}`}>
-          ❱
-        </div>
-      </div>
-      <div style={slideStylesWidthBackground}></div>
-      <div className={`${dotsContainerStyles}`}>
-        {slides.map((slide, slideIndex) => (
+    <div
+      className="container__slider"
+      onMouseEnter={AutoPlayStop}
+      onMouseLeave={AutoPlayStart}
+    >
+      {children.map((item, index) => {
+        return (
           <div
-            className={`${dotStyle}`}
-            key={slideIndex}
-            onClick={() => goToSlide(slideIndex)}
+            className={"slider__item slider__item-active-" + (activeIndex + 1)}
+            key={index}
           >
-            ●
+            {item}
           </div>
-        ))}
+        );
+      })}
+
+      <div className="container__slider__links">
+        {children.map((item, index) => {
+          return (
+            <button
+              key={index}
+              className={
+                activeIndex === index
+                  ? "container__slider__links-small container__slider__links-small-active"
+                  : "container__slider__links-small"
+              }
+              onClick={(e) => {
+                e.preventDefault();
+                setActiveIndex(index);
+              }}
+            ></button>
+          );
+        })}
       </div>
+
+      <button
+        className="slider__btn-next"
+        onClick={(e) => {
+          e.preventDefault();
+          slideNext();
+        }}
+      >
+        {">"}
+      </button>
+      <button
+        className="slider__btn-prev"
+        onClick={(e) => {
+          e.preventDefault();
+          slidePrev();
+        }}
+      >
+        {"<"}
+      </button>
     </div>
   );
-};
+}
 
 export default ImageSlider;
