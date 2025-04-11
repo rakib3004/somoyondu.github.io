@@ -14,7 +14,7 @@ const ImageSlider = ({ children }) => {
         setTimeout(() => {
           slideNext();
           setSlideDone(true);
-        }, 15000)
+        }, 5000)
       );
     }
   }, [slideDone]);
