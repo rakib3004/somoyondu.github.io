@@ -1,16 +1,51 @@
-
 import ImageSlider from "../components/ImageSlider";
-const Gallery = () => {
+import { useEffect, useState } from "react";
 
-  const slides = [
-    { url: "gallery/image1.png", title: "somoyon1" },
-    { url: "gallery/image2.png", title: "somoyon2" },
-    { url: "gallery/image3.png", title: "somoyon3" },
-    { url: "gallery/image4.png", title: "somoyon4" },
-    { url: "gallery/image5.png", title: "somoyon5" },
-  ];
+const Gallery = () => {
+  const [slides, setSlides] = useState([]);
+  
+  useEffect(() => {
+    // Dynamically import all images from the gallery folder using Vite's import.meta.glob
+    const importAllImages = async () => {
+      try {
+        // Get all images from the gallery folder using Vite's glob import
+        const imageModules = import.meta.glob('../../public/gallery/*.{jpg,jpeg,png,gif,webp}');
+        
+        const loadedSlides = await Promise.all(
+          Object.entries(imageModules).map(async ([path, module]) => {
+            // Extract filename without extension
+            const fileName = path
+              .split('/').pop() // Get the last part of the path
+              .replace(/\.[^/.]+$/, ''); // Remove file extension
+            
+            // Convert kebab-case or snake_case to Title Case
+            const title = fileName
+              .split(/[-_]/)
+              .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+              .join(' ');
+            
+            const imageUrl = (await module()).default;
+            
+            return {
+              url: imageUrl,
+              title: title,
+              key: fileName
+            };
+          })
+        );
+        
+        setSlides(loadedSlides);
+      } catch (error) {
+        console.error("Error loading images:", error);
+      }
+    };
+    
+    importAllImages();
+  }, []);
+
   const containerStyles = {
     width: "500px",
+    maxWidth: "90%",
     height: "380px",
     margin: "0 auto",
   };
@@ -23,17 +58,18 @@ const Gallery = () => {
         </h1>
         <h1 className="text-xl mb-6">একনজরে সময়নের কার্যক্রম</h1>
 
-        <div style={containerStyles}>
-        <ImageSlider>
-        {slides.map((image, index) => {
-          return <img key={index} src={image.url} alt={image.title} />;
-        })}
-        </ImageSlider>
-      </div>        
-     
+        {slides.length > 0 ? (
+          <div style={containerStyles}>
+            <ImageSlider>
+              {slides.map((image) => (
+                <img key={image.key} src={image.url} alt={image.title} />
+              ))}
+            </ImageSlider>
+          </div>
+        ) : (
+          <p className="text-center py-4">ছবি লোড হচ্ছে ...</p>
+        )}
       </div>
-
-  
     </div>
   );
 };
