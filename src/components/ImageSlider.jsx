@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-
 import "./ImageSlider.css";
 
 const ImageSlider = ({ children }) => {
@@ -61,7 +60,7 @@ const ImageSlider = ({ children }) => {
       {children.map((item, index) => {
         return (
           <div
-            className={"slider__item slider__item-active-" + (activeIndex + 1)}
+            className={`slider__item ${activeIndex === index ? 'slider__item-active' : ''}`}
             key={index}
           >
             {item}
