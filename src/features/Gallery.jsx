@@ -45,8 +45,8 @@ const Gallery = () => {
 
   const containerStyles = {
     width: "500px",
-    maxWidth: "90%",
-    height: "380px",
+    maxWidth: "100%",
+    height: "500px",
     margin: "0 auto",
   };
 
