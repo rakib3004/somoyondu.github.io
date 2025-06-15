@@ -1,6 +1,5 @@
-import React from 'react'
-import NavBar from '../components/NavBar'
-import Introduction from '../components/Introduction'
+import Introduction from '../components/Introduction';
+import NavBar from '../components/NavBar';
 
 const Header = () => {
   const backgroundStyle = {

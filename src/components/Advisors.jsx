@@ -1,7 +1,5 @@
-import React from 'react';
-
-import AdvisorCard from './AdvisorCard';
 import AdvisorsService from '../services/AdvisorsService';
+import AdvisorCard from './AdvisorCard';
 const Advisors = () => {
   const advisors = AdvisorsService();
   return (

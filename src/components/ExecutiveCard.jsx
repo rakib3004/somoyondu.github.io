@@ -1,5 +1,3 @@
-
-
 const ExecutiveCard = ({executive}) => {
   return (
     <div className="group ease-in-out transition w-36 lg:w-64 mx-4 my-2 p-1 lg:p-8 bg-white hover:bg-[#6251A7] lg:ring-4 ring-2 ring-[#6251A7]  rounded-xl shadow-md transform hover:scale-105 duration-500">

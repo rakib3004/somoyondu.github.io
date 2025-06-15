@@ -1,5 +1,3 @@
-import React from 'react'
-
 const AboutUs = () => {
   return (
     <div className='my-6 py-6 w-full lg:w-1/2 center ml-4 lg:ml-80' id="about">

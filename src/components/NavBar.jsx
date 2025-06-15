@@ -21,6 +21,10 @@ const NavBar = () => {
       id: "advisors",
       title: "উপদেষ্টা",
     },
+    {
+      id: "events",
+      title: "ইভেন্টস",
+    },
   ];
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);

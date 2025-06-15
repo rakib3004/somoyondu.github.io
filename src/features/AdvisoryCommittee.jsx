@@ -1,5 +1,3 @@
-import React from 'react'
-
 import Advisors from '../components/Advisors';
 
 const AdvisoryCommittee = () => {

@@ -1,4 +1,3 @@
-
 import ExecutiveCard from "./ExecutiveCard";
 const Executives = () => {
   const executives = [
