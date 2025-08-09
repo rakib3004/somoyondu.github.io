@@ -11,7 +11,7 @@ const MainSection = () => {
     <FoundingMembers/>
     <ExecutiveCommitteeSection/>
     <AdvisoryCommittee/>
-    <Events/>
+    {/* <Events/> */}
     </div>
   )
 }
