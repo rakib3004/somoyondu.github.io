@@ -1,29 +1,44 @@
 const TopExecutivesService = (year) => {
   const topExecutivesIn2025 = [
     {
-      name: "মোঃ তায়্যেবুর রহমান",
-      designation: "সভাপতি",
-      image: "members/2024/tayebur.jpg",
+      name: "মো. ইন্তেসার জোবায়ের",
+      designation: "সহ-সভাপতি",
+      image: "members/2025/intesar.jpg"
     },
     {
-      name: "মুশফিকুর রহমান মিজু",
-      designation: "সিনিয়র সহ সভাপতি",
-      image: "members/2024/mizu.jpg",
+      name: "সাবের হোসেন",
+      designation: "সহ-সভাপতি",
+      image: "members/2025/saber.jpg"
     },
     {
-      name: "মামশুকা ফারহাত",
-      designation: "সাধারণ সম্পাদক",
-      image: "members/2024/mumsuka.jpg",
+      name: "মো. রায়হান",
+      designation: "সহ-সভাপতি",
+      image: "members/2025/boy.jpg"
     },
     {
-      name: "মোঃ নাজমুল",
-      designation: "সিনিয়র যুগ্ম-সাধারণ সম্পাদক",
-      image: "members/2024/nazmul.jpg",
+      name: "সাকিব মাহমুদ বিজয়",
+      designation: "যুগ্ম সাধারণ সম্পাদক",
+      image: "members/2025/mahmud.jpg"
     },
     {
-      name: "মো: মাসুম বিল্লাহ",
-      designation: "সিনিয়র যুগ্ম-সাধারণ সম্পাদক",
-      image: "members/2024/masum.jpg",
+      name: "মো. আসিফ হোসেন",
+      designation: "যুগ্ম সাধারণ সম্পাদক",
+      image: "members/2025/asif.jpg"
+    },
+    {
+      name: "সাদমান সাকিব খন্দকার",
+      designation: "যুগ্ম সাধারণ সম্পাদক",
+      image: "members/2025/sadman.jpg"
+    },
+    {
+      name: "সাফায়াতুল ইসলাম",
+      designation: "যুগ্ম সাধারণ সম্পাদক",
+      image: "members/2025/safayatul.jpeg"
+    },
+    {
+      name: "মো. আমিনুল ইসলাম",
+      designation: "যুগ্ম সাধারণ সম্পাদক",
+      image: "members/2025/aminul.jpg"
     },
   ];
   const topExecutivesIn2024 = [

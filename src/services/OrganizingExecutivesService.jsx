@@ -1,9 +1,15 @@
 const OrganizingExecutivesService = (year) => {
   const organizingExecutivesIn2025 = [
+
     {
       name: "ফারহান নোশিন",
       designation: "সাংগঠনিক সম্পাদক",
-      image: "members/2024/farhan.jpeg",
+      image: "members/2025/farhan.jpeg"
+    },
+    {
+      name: "মোহাম্মদ শাহজালাল বারি",
+      designation: "উপ-সাংগঠনিক সম্পাদক",
+      image: "members/2025/boy.jpg"
     },
   ];
   const organizingExecutivesIn2024 = [
