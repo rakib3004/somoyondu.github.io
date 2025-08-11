@@ -3,7 +3,7 @@ const ExecutiveMembersService = (year) => {
       {
         name: "সাদমান সাকিব খন্দকার",
         designation: "যুগ্ম সাধারণ সম্পাদক",
-        image: "members/2025/boy.jpg"
+        image: "members/2025/sadman.jpg"
       },
       {
         name: "তানামু রহমান স্বনাম",
@@ -11,14 +11,19 @@ const ExecutiveMembersService = (year) => {
         image: "members/2025/boy.jpg"
       },
       {
+        name: "তৌহিদুল রহমান তালুকদার",
+        designation: "ত্রাণ ও দুর্যোগ সম্পাদক",
+        image: "members/2025/boy.jpg"
+       },
+      {
         name: "মো. আসিফ হোসেন",
         designation: "যুগ্ম সাধারণ সম্পাদক",
-        image: "members/2025/boy.jpg"
+        image: "members/2025/asif.jpg"
       },
       {
         name: "আফরোজা তারিন মারজানা",
         designation: "উপ-কোষাধ্যক্ষ",
-        image: "members/2025/boy.jpg"
+        image: "members/2025/girl.jpg"
       },
       {
         name: "মো. রায়হান",
@@ -32,7 +37,7 @@ const ExecutiveMembersService = (year) => {
       },
       {
         name: "মো. রাশেদুল ইসলাম",
-        designation: "উপ-পরিবেশ বিষয়ক সম্পাদক ২",
+        designation: "উপ-পরিবেশ বিষয়ক সম্পাদক",
         image: "members/2025/boy.jpg"
       },
       {
@@ -43,67 +48,67 @@ const ExecutiveMembersService = (year) => {
       {
         name: "তাওয়াসুম",
         designation: "উপ-ক্রীড়া সম্পাদক",
-        image: "members/2025/boy.jpg"
+        image: "members/2025/tawasum.jpeg"
       },
       {
         name: "সাকিব মাহমুদ বিজয়",
         designation: "যুগ্ম সাধারণ সম্পাদক",
-        image: "members/2025/boy.jpg"
+        image: "members/2025/mahmud.jpg"
       },
       {
         name: "আবির খন্দকার",
         designation: "কোষাধ্যক্ষ",
-        image: "members/2025/boy.jpg"
+        image: "members/2025/abir.jpg"
       },
       {
         name: "আওয়াফ আনসারী",
         designation: "উপ-প্রেস সম্পাদক",
-        image: "members/2025/boy.jpg"
+        image: "members/2025/awof.jpg"
       },
       {
         name: "জুহাই-উর-আহমেদ শৌভিক",
         designation: "উপ-ত্রাণ ও দুর্যোগ বিষয়ক সম্পাদক",
-        image: "members/2025/boy.jpg"
+        image: "members/2025/juhai.jpg"
       },
       {
         name: "আব্দুল্লাহ আল ফাহাদ",
         designation: "উপ-ক্রীড়া সম্পাদক",
-        image: "members/2025/boy.jpg"
+        image: "members/2025/fahad.jpg"
       },
       {
         name: "সাকিব ইহসান",
         designation: "সমাজকল্যাণ সম্পাদক",
-        image: "members/2025/boy.jpg"
+        image: "members/2025/sakib.jpg"
       },
       {
         name: "কাজী নাদিয়া জাফরিন",
         designation: "উপ-সমাজকল্যাণ সম্পাদক ১",
-        image: "members/2025/boy.jpg"
+        image: "members/2025/nadia.jpg"
       },
       {
         name: "মো. সাব্বির হোসেন",
         designation: "ক্রীড়া সম্পাদক",
-        image: "members/2025/boy.jpg"
+        image: "members/2025/sabbir.png"
       },
       {
         name: "মো. নয়ন",
         designation: "পরিবেশ বিষয়ক সম্পাদক",
-        image: "members/2025/boy.jpg"
+        image: "members/2025/nayon.jpeg"
       },
       {
         name: "মো. তায়েবুর রহমান",
         designation: "সভাপতি",
-        image: "members/2025/boy.jpg"
+        image: "members/2025/tayebur.png"
       },
       {
         name: "মো. নাজমুল",
         designation: "যুগ্ম সাধারণ সম্পাদক",
-        image: "members/2025/boy.jpg"
+        image: "members/2025/nazmul.jpg"
       },
       {
         name: "কাজী সিয়াম ফারদিন",
         designation: "তথ্য ও প্রযুক্তি সম্পাদক",
-        image: "members/2025/boy.jpg"
+        image: "members/2025/fardin.jpg"
       },
       {
         name: "তৌহিদুর রহমান তালুকদার",
@@ -113,97 +118,97 @@ const ExecutiveMembersService = (year) => {
       {
         name: "ফারহান নওশীন",
         designation: "সাংগঠনিক সম্পাদক",
-        image: "members/2025/boy.jpg"
+        image: "members/2025/farhan.jpeg"
       },
       {
         name: "সাফায়াতুল ইসলাম",
         designation: "যুগ্ম সাধারণ সম্পাদক",
-        image: "members/2025/boy.jpg"
+        image: "members/2025/safayatul.jpeg"
       },
       {
         name: "নুসরাত জাহান সাদিয়া",
         designation: "দপ্তর সম্পাদক",
-        image: "members/2025/boy.jpg"
+        image: "members/2025/nusrat.jpg"
       },
       {
         name: "মো. নুরুন্নবী মিয়া",
         designation: "সাধারণ সদস্য",
-        image: "members/2025/boy.jpg"
+        image: "members/2025/nurnoby.jpg"
       },
       {
         name: "মো. সামিউল ইসলাম সৌরভ",
         designation: "সাধারণ সদস্য",
-        image: "members/2025/boy.jpg"
+        image: "members/2025/samiul.jpeg"
       },
       {
         name: "অর্ণা হালদার",
         designation: "উপ-সমাজকল্যাণ সম্পাদক",
-        image: "members/2025/boy.jpg"
+        image: "members/2025/arna.jpg"
       },
       {
         name: "তাসনিয়া ইসলাম পারসা",
         designation: "সাধারণ সদস্য",
-        image: "members/2025/boy.jpg"
+        image: "members/2025/parsa.jpg"
       },
       {
         name: "মো. আবু সাঈদ সোহাগ",
         designation: "সাধারণ সদস্য",
-        image: "members/2025/boy.jpg"
+        image: "members/2025/sohag.jpg"
       },
       {
         name: "নূর-উল-আইন",
         designation: "সাধারণ সদস্য",
-        image: "members/2025/boy.jpg"
+        image: "members/2025/noor.jpg"
       },
       {
         name: "মো. মাহমুদুল হাসান আবির",
-        designation: "প্রেস সম্পাদক",
-        image: "members/2025/boy.jpg"
+        designation: "প্রচার সম্পাদক",
+        image: "members/2025/md-abir.jpg"
       },
       {
         name: "সাবের হোসেন",
         designation: "সহ-সভাপতি",
-        image: "members/2025/boy.jpg"
+        image: "members/2025/saber.jpg"
       },
       {
         name: "মুমসুকা ফারহাত",
         designation: "সাধারণ সম্পাদক",
-        image: "members/2025/boy.jpg"
+        image: "members/2025/farhat.jpg"
       },
       {
         name: "পৃথা সান্যাল",
         designation: "সাংস্কৃতিক সম্পাদক",
-        image: "members/2025/boy.jpg"
+        image: "members/2025/pritha.jpeg"
       },
       {
         name: "প্রান্ত ঘোষ",
         designation: "পরিবেশ বিষয়ক সম্পাদক",
-        image: "members/2025/boy.jpg"
+        image: "members/2025/pranto.jpg"
       },
       {
         name: "মো. ইন্তেসার জোবায়ের",
         designation: "সহ-সভাপতি",
-        image: "members/2025/boy.jpg"
+        image: "members/2025/intesar.jpg"
       },
       {
         name: "মো. আব্দুল্লাহ মাহমুদ মিরার",
         designation: "উপ-তথ্য ও প্রযুক্তি সম্পাদক",
-        image: "members/2025/boy.jpg"
+        image: "members/2025/mirar.jpg"
       },
       {
         name: "হামিম উর রহমান তানিম",
         designation: "উপ-সাংস্কৃতিক সম্পাদক",
-        image: "members/2025/boy.jpg"
+        image: "members/2025/tanim.jpeg"
       },
       {
         name: "মো. আমিনুল ইসলাম",
         designation: "যুগ্ম সাধারণ সম্পাদক",
-        image: "members/2025/boy.jpg"
+        image: "members/2025/aminul.jpg"
       },
       {
         name: "মো. নাহিদ হাসান",
         designation: "সাধারণ সদস্য",
-        image: "members/2025/boy.jpg"
+        image: "members/2025/nahid.jpg"
       }
   ];
 
