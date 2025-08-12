@@ -1,15 +1,19 @@
 const OfficialsService = (year) => {
   const officialsIn2025 = [
-
     {
-      name: "তৌহিদুল রহমান তালুকদার",
-      designation: "ত্রাণ ও দুর্যোগ সম্পাদক",
-      image: "members/2025/boy.jpg"
-     },
+      name: "আবির খন্দকার",
+      designation: "কোষাধ্যক্ষ",
+      image: "members/2025/abir.jpg"
+    },
     {
       name: "আফরোজা তারিন মারজানা",
       designation: "উপ-কোষাধ্যক্ষ",
       image: "members/2025/girl.jpg"
+    },
+    {
+      name: "নুসরাত জাহান সাদিয়া",
+      designation: "দপ্তর সম্পাদক",
+      image: "members/2025/nusrat.jpg"
     },
     {
       name: "সিদ্ধার্থ বণিক",
@@ -17,34 +21,14 @@ const OfficialsService = (year) => {
       image: "members/2025/boy.jpg"
     },
     {
-      name: "মো. রাশেদুল ইসলাম",
-      designation: "উপ-পরিবেশ বিষয়ক সম্পাদক",
-      image: "members/2025/boy.jpg"
-    },
-    {
-      name: "তাওয়াসুম",
-      designation: "উপ-ক্রীড়া সম্পাদক",
-      image: "members/2025/tawasum.jpeg"
-    },
-    {
-      name: "আবির খন্দকার",
-      designation: "কোষাধ্যক্ষ",
-      image: "members/2025/abir.jpg"
+      name: "মো. মাহমুদুল হাসান আবির",
+      designation: "প্রচার সম্পাদক",
+      image: "members/2025/md-abir.jpg"
     },
     {
       name: "আওয়াফ আনসারী",
-      designation: "উপ-প্রেস সম্পাদক",
+      designation: "উপ-প্রচার সম্পাদক",
       image: "members/2025/awof.jpg"
-    },
-    {
-      name: "জুহাই-উর-আহমেদ শৌভিক",
-      designation: "উপ-ত্রাণ ও দুর্যোগ বিষয়ক সম্পাদক",
-      image: "members/2025/juhai.jpg"
-    },
-    {
-      name: "আব্দুল্লাহ আল ফাহাদ",
-      designation: "উপ-ক্রীড়া সম্পাদক",
-      image: "members/2025/fahad.jpg"
     },
     {
       name: "সাকিব ইহসান",
@@ -57,45 +41,14 @@ const OfficialsService = (year) => {
       image: "members/2025/nadia.jpg"
     },
     {
-      name: "মো. সাব্বির হোসেন",
-      designation: "ক্রীড়া সম্পাদক",
-      image: "members/2025/sabbir.png"
-    },
-    {
-      name: "মো. নয়ন",
-      designation: "পরিবেশ বিষয়ক সম্পাদক",
-      image: "members/2025/nayon.jpeg"
-    },
-    {
       name: "কাজী সিয়াম ফারদিন",
       designation: "তথ্য ও প্রযুক্তি সম্পাদক",
       image: "members/2025/fardin.jpg"
     },
     {
-      name: "তৌহিদুর রহমান তালুকদার",
-      designation: "ত্রাণ ও দুর্যোগ বিষয়ক সম্পাদক",
-      image: "members/2025/boy.jpg"
-    },
-    {
-      name: "নুসরাত জাহান সাদিয়া",
-      designation: "দপ্তর সম্পাদক",
-      image: "members/2025/nusrat.jpg"
-    },
-    {
-      name: "অর্ণা হালদার",
-      designation: "উপ-সমাজকল্যাণ সম্পাদক",
-      image: "members/2025/arna.jpg"
-    },
-    {
-      name: "মো. মাহমুদুল হাসান আবির",
-      designation: "প্রচার সম্পাদক",
-      image: "members/2025/md-abir.jpg"
-    },
-
-    {
-      name: "পৃথা সান্যাল",
-      designation: "সাংস্কৃতিক সম্পাদক",
-      image: "members/2025/pritha.jpeg"
+      name: "মো. আব্দুল্লাহ মাহমুদ মিরার",
+      designation: "উপ-তথ্য ও প্রযুক্তি সম্পাদক",
+      image: "members/2025/mirar.jpg"
     },
     {
       name: "প্রান্ত ঘোষ",
@@ -103,9 +56,49 @@ const OfficialsService = (year) => {
       image: "members/2025/pranto.jpg"
     },
     {
-      name: "মো. আব্দুল্লাহ মাহমুদ মিরার",
-      designation: "উপ-তথ্য ও প্রযুক্তি সম্পাদক",
-      image: "members/2025/mirar.jpg"
+      name: "মো. নয়ন",
+      designation: "পরিবেশ বিষয়ক সম্পাদক",
+      image: "members/2025/nayon.jpeg"
+    },
+    {
+      name: "মো. রাশেদুল ইসলাম",
+      designation: "উপ-পরিবেশ বিষয়ক সম্পাদক",
+      image: "members/2025/boy.jpg"
+    },
+    {
+      name: "মো. সাব্বির হোসেন",
+      designation: "ক্রীড়া সম্পাদক",
+      image: "members/2025/sabbir.png"
+    },
+    {
+      name: "তাওয়াসুম",
+      designation: "উপ-ক্রীড়া সম্পাদক",
+      image: "members/2025/tawasum.jpeg"
+    },
+    {
+      name: "আব্দুল্লাহ আল ফাহাদ",
+      designation: "উপ-ক্রীড়া সম্পাদক",
+      image: "members/2025/fahad.jpg"
+    },
+    {
+       name: "তৌহিদুর রহমান তালুকদার",
+       designation: "ত্রাণ ও দুর্যোগ বিষয়ক সম্পাদক",
+       image: "members/2025/boy.jpg"
+    },
+    {
+      name: "জুহাই-উর-আহমেদ শৌভিক",
+      designation: "উপ-ত্রাণ ও দুর্যোগ বিষয়ক সম্পাদক",
+      image: "members/2025/juhai.jpg"
+    },
+    {
+      name: "অর্ণা হালদার",
+      designation: "উপ-সমাজকল্যাণ সম্পাদক",
+      image: "members/2025/arna.jpg"
+    },
+    {
+      name: "পৃথা সান্যাল",
+      designation: "সাংস্কৃতিক সম্পাদক",
+      image: "members/2025/pritha.jpeg"
     },
     {
       name: "হামিম উর রহমান তানিম",
