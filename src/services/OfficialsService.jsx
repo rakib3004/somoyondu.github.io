@@ -37,7 +37,7 @@ const OfficialsService = (year) => {
     },
     {
       name: "কাজী নাদিয়া জাফরিন",
-      designation: "উপ-সমাজকল্যাণ সম্পাদক ১",
+      designation: "উপ-সমাজকল্যাণ সম্পাদক",
       image: "members/2025/nadia.jpg"
     },
     {
