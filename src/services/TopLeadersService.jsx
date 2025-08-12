@@ -8,7 +8,7 @@ const TopLeadersService = (year) => {
     {
       name: "মুশফিকুর রহমান মিজু",
       designation: "সিনিয়র সহ সভাপতি",
-      image: "members/2024/mizu.jpg",
+      image: "members/2025/mizu.jpg",
     },
     {
       name: "মামশুকা ফারহাত",
