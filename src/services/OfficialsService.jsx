@@ -57,7 +57,7 @@ const OfficialsService = (year) => {
     },
     {
       name: "মো. নয়ন",
-      designation: "পরিবেশ বিষয়ক সম্পাদক",
+      designation: "উপ-পরিবেশ বিষয়ক সম্পাদক",
       image: "members/2025/nayon.jpeg"
     },
     {
