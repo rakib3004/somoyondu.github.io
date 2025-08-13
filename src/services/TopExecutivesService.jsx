@@ -11,9 +11,19 @@ const TopExecutivesService = (year) => {
       image: "members/2025/saber.jpg"
     },
     {
-      name: "মো. রায়হান",
+      name: "দেবপ্রিয় ভট্টাচার্য দিপু",
       designation: "সহ-সভাপতি",
-      image: "members/2025/boy.jpg"
+      image: "members/2025/dipu.jpg",
+    }, 
+    {
+      name: "মো: মাসুম বিল্লাহ",
+      designation: "যুগ্ম-সাধারণ সম্পাদক",
+      image: "members/2024/masum.jpg",
+    },
+    {
+      name: "মুশফিকুর রহমান মিজু",
+      designation: "যুগ্ম-সাধারণ সম্পাদক",
+      image: "members/2025/mizu.jpg",
     },
     {
       name: "সাকিব মাহমুদ বিজয়",

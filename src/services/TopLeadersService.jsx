@@ -6,9 +6,9 @@ const TopLeadersService = (year) => {
       image: "members/2025/tayebur.png",
     },
     {
-      name: "মুশফিকুর রহমান মিজু",
-      designation: "সিনিয়র সহ সভাপতি",
-      image: "members/2025/mizu.jpg",
+      name: "মো. রায়হান",
+      designation: "সহ-সভাপতি",
+      image: "members/2025/boy.jpg"
     },
     {
       name: "মামশুকা ফারহাত",
@@ -17,13 +17,8 @@ const TopLeadersService = (year) => {
     },
     {
       name: "মোঃ নাজমুল",
-      designation: "সিনিয়র যুগ্ম-সাধারণ সম্পাদক",
+      designation: "যুগ্ম-সাধারণ সম্পাদক",
       image: "members/2025/nazmul.jpg",
-    },
-    {
-      name: "মো: মাসুম বিল্লাহ",
-      designation: "সিনিয়র যুগ্ম-সাধারণ সম্পাদক",
-      image: "members/2024/masum.jpg",
     },
   ];
   const topLeadersIn2024 = [
